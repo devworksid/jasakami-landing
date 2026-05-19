@@ -1544,8 +1544,40 @@ a {
 /* Footer already has padding-bottom for pill nav clearance */
 
 /* =========================
+   WAVE PILL DIVIDER
+========================= */
+
+/* Applied directly to pricing section as rounded pill shape */
+
+/* =========================
    PRICING
 ========================= */
+
+.pricing-section {
+  background: #0f172a;
+  border-radius: 80px 80px 80px 80px;
+  margin-bottom: 60px;
+}
+
+.pricing-section .section-title {
+  color: #ffffff;
+}
+
+.pricing-section .section-heading p {
+  color: #94a3b8 !important;
+}
+
+@media (max-width: 768px) {
+  .pricing-section {
+    border-radius: 50px 50px 50px 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricing-section {
+    border-radius: 35px 35px 35px 35px;
+  }
+}
 
 .pricing-cards {
   padding-top: 10px;
