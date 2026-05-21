@@ -1,6 +1,6 @@
-# 🚀 JasaKami — Landing Page UMKM & Jasa Digital
+# DevWorksID — Building Modern Digital Solutions
 
-Website landing page profesional untuk **Jasa Kami**, layanan pembuatan website dan pendampingan skripsi informatika yang ditujukan untuk UMKM Indonesia.
+Website portfolio profesional untuk **DevWorksID**, layanan freelance developer yang membantu UMKM, perusahaan, startup, dan individu dalam membangun website, aplikasi web, sistem informasi, dan solusi digital modern.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
@@ -9,32 +9,35 @@ Website landing page profesional untuk **Jasa Kami**, layanan pembuatan website 
 
 ---
 
-## ✨ Fitur
+## Features
 
-- 🎨 **Desain Modern & Responsif** — Tampilan profesional di semua perangkat
-- 🌊 **Wave Divider** — Transisi antar section yang smooth
-- 📱 **Mobile-First** — Carousel & pill navigation untuk pengalaman mobile terbaik
-- 🎬 **Animate On Scroll (AOS)** — Animasi scroll yang halus dan elegan
-- 🖼️ **Lightbox Gallery** — Preview portfolio dengan navigasi gambar
-- 💬 **Floating WhatsApp** — Akses cepat ke konsultasi via WhatsApp
-- 🚀 **Scroll to Top** — Navigasi cepat kembali ke atas
-- 💰 **Pricing Cards** — Tampilan paket harga yang jelas dan menarik
+- Modern & responsive design (mobile-first)
+- Animate On Scroll (AOS) animations
+- Lightbox portfolio gallery with swipe support
+- Floating WhatsApp with pre-filled message
+- Scroll to Top rocket button
+- Mobile bottom pill navigation
+- Contact form → WhatsApp integration
+- Pricing cards with WhatsApp CTA
+- License modal
+- Wave dividers between sections
+- Glassmorphism & soft shadow design elements
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-| Teknologi       | Kegunaan                     |
+| Technology      | Purpose                      |
 | --------------- | ---------------------------- |
-| HTML5           | Struktur halaman             |
-| CSS3            | Styling & animasi            |
-| Bootstrap 5.3   | Grid system & komponen UI    |
-| Bootstrap Icons | Ikon vektor                  |
+| HTML5           | Page structure               |
+| CSS3            | Styling & animations         |
+| Bootstrap 5.3   | Grid system & UI components  |
+| Bootstrap Icons | Vector icons                 |
 | AOS 2.3.4       | Scroll animation library     |
 | Google Fonts    | Plus Jakarta Sans typography |
 
-## 📂 Struktur Project
+## Project Structure
 
 ```
-jasakami-landing/
+devworksid-landing/
 ├── assets/
 │   └── images/
 │       ├── background_cover.jpeg
@@ -44,34 +47,16 @@ jasakami-landing/
 └── README.md
 ```
 
-## 🚀 Cara Menjalankan
+## Getting Started
 
-Cukup buka file `index.html` di browser, atau gunakan Live Server:
+Open `index.html` in your browser, or use Live Server in VS Code.
 
-```bash
-# Jika menggunakan VS Code Live Server extension
-# Klik kanan index.html → Open with Live Server
-```
+## License
 
-## 📸 Preview
-
-Website ini mencakup section:
-
-1. **Hero** — Headline utama dengan CTA
-2. **Tentang Kami** — Profil dan keunggulan layanan
-3. **Layanan** — Jenis layanan yang ditawarkan
-4. **Portfolio** — Showcase kemampuan pembuatan website
-5. **Harga** — Paket dan pricing yang transparan
-6. **CTA** — Call-to-action untuk konsultasi
-7. **Kontak** — Informasi kontak lengkap
-8. **Footer** — Navigasi dan informasi tambahan
-
-## 📄 Lisensi
-
-Hak cipta © 2025 Jasa Kami. All rights reserved.
+© 2026 DevWorksID. All Rights Reserved.
 
 ---
 
 <p align="center">
-  Dibuat dengan ❤️ untuk UMKM Indonesia
+  Building Modern Digital Solutions
 </p>
