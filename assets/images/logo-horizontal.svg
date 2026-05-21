@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 56" fill="none">
+  <!-- Icon -->
+  <rect width="56" height="56" rx="14" fill="#2563EB"/>
+  <path d="M18 24l-6 4 6 4" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38 24l6 4-6 4" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31 20l-6 16" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Text: DevWorksID -->
+  <text x="72" y="36" font-family="Plus Jakarta Sans, sans-serif" font-size="22" font-weight="800" fill="#0F172A">
+    <tspan fill="#2563EB">Dev</tspan><tspan fill="#0F172A">WorksID</tspan>
+  </text>
+</svg>

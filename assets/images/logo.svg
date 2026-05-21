@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="128" fill="#2563EB"/>
+  
+  <!-- Inner rounded D shape (outline) -->
+  <path d="M176 136h96c72.548 0 132 59.452 132 132s-59.452 132-132 132h-96a28 28 0 0 1-28-28V164a28 28 0 0 1 28-28z" fill="white" fill-opacity="0.12"/>
+  
+  <!-- Code symbol </> centered - clean minimal -->
+  <!-- Left bracket < -->
+  <path d="M200 224l-40 32 40 32" stroke="white" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right bracket > -->
+  <path d="M312 224l40 32-40 32" stroke="white" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Slash / -->
+  <path d="M280 200l-48 112" stroke="white" stroke-width="20" stroke-linecap="round"/>
+</svg>
