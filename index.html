@@ -4,1697 +4,1588 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>DevWorksID - Building Modern Digital Solutions</title>
+    <meta name="description"
+        content="DevWorksID - Turning Ideas Into Digital Solutions. Kami membantu UMKM, perusahaan, dan individu membangun website, sistem informasi, serta solusi digital.">
+    <meta name="keywords"
+        content="DevWorksID, web developer, website, sistem informasi, UMKM, toko online, company profile">
+    <meta name="author" content="DevWorksID">
+    <title>DevWorksID - Turning Ideas Into Digital Solutions</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap 5.3.3 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts - Plus Jakarta Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
     <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <!-- AOS (Animate On Scroll) -->
-    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- CSS -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Floating Logo Badge -->
-    <div class="top-brand-badge">
-
-        <a href="#home" class="brand-link">
-
-            <img src="assets/images/logo.svg" alt="Logo DevWorksID" class="navbar-logo">
-
-            <div class="navbar-text-logo">
-                <span>Dev</span>WorksID
-            </div>
-
+    <!-- ========================= FLOATING LOGO BADGE ========================= -->
+    <div class="top-brand-badge" data-aos="fade-down" data-aos-delay="200">
+        <a href="#" class="brand-link">
+            <img src="assets/images/logo.svg" alt="DevWorksID Logo" class="navbar-logo">
+            <span class="navbar-text-logo">Dev<span>Works</span>ID</span>
         </a>
-
     </div>
 
-    <!-- Hero -->
-    <section class="hero-section" id="home">
-
+    <!-- ========================= HERO SECTION ========================= -->
+    <section class="hero-section" id="beranda">
         <div class="container">
-
             <div class="row align-items-center gy-5">
-
-                <!-- Left Content -->
-                <div class="col-lg-6">
-
-
-                    <h1 class="hero-title" data-aos="fade-right" data-aos-delay="100">
-                        Membangun Website & Solusi Digital untuk Mengembangkan Bisnis Anda
-                    </h1>
-
-                    <p class="hero-description" data-aos="fade-right" data-aos-delay="200">
-                        DevWorksID membantu UMKM, perusahaan, dan individu menghadirkan
-                        website, aplikasi web, dan sistem informasi yang modern, profesional,
-                        serta siap mendukung pertumbuhan bisnis di era digital.
-                    </p>
-
-                    <!-- Buttons -->
-                    <div class="hero-buttons d-flex flex-wrap gap-3" data-aos="fade-right" data-aos-delay="300">
-
-                        <a href="#portfolio" class="btn btn-custom-primary btn-lg-custom">
-                            Lihat Portfolio
-                        </a>
-
-                        <a href="#kontak" class="btn btn-custom-outline btn-lg-custom">
-                            Konsultasi Gratis
-                        </a>
-
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-badge">
+                        <i class="bi bi-rocket-takeoff me-2"></i> Turning Ideas Into Digital Solutions
                     </div>
-
-                </div>
-
-                <!-- Right Image -->
-                <div class="col-lg-6">
-
-                    <div class="hero-image-wrapper" data-aos="fade-left" data-aos-delay="400">
-
-                        <img src="assets/images/background_cover.jpeg"
-                            alt="DevWorksID - Building Modern Digital Solutions" class="img-fluid hero-image">
-
+                    <h1 class="hero-title">Fokus Mengembangkan Bisnis Anda, Urusan Website dan Sistem Biar Kami yang
+                        Tangani.</h1>
+                    <p class="hero-description">Kami membantu UMKM, perusahaan, dan individu membangun website, sistem
+                        informasi, serta solusi digital yang sesuai kebutuhan dan mudah digunakan.</p>
+                    <div class="hero-buttons d-flex flex-wrap gap-3">
+                        <a href="#solusi" class="btn btn-custom-primary btn-lg-custom">Lihat Solusi Kami</a>
+                        <a href="#kontak" class="btn btn-custom-outline btn-lg-custom">Konsultasi Gratis</a>
                     </div>
-
                 </div>
-
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="hero-image-wrapper">
+                        <img src="assets/images/background_cover.jpeg" alt="DevWorksID Hero" class="hero-image">
+                        <div class="floating-card card-one" data-aos="fade-up" data-aos-delay="600">
+                            <i class="bi bi-shield-check"></i>
+                            <span>Konsultasi Gratis</span>
+                        </div>
+                        <div class="floating-card card-two" data-aos="fade-up" data-aos-delay="800">
+                            <i class="bi bi-lightning-charge-fill"></i>
+                            <span>Proses Cepat & Jelas</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
-
     </section>
 
-    <!-- Wave Divider (Hero -> Tentang) -->
+    <!-- Wave Divider: Hero -> Masalah -->
     <div class="hero-wave">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
-            <path fill="#ffffff" fill-opacity="0.3" d="M0,70 Q360,130 720,70 T1440,70 L1440,130 L0,130 Z"></path>
-            <path fill="#ffffff" fill-opacity="1" d="M0,50 Q360,110 720,50 T1440,50 L1440,130 L0,130 Z"></path>
+        <svg viewBox="0 0 1440 130" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#ffffff" d="M0,60 C240,130 480,20 720,70 C960,120 1200,20 1440,70 L1440,130 L0,130 Z" />
         </svg>
     </div>
 
-    <!-- Tentang -->
-    <section class="section-padding" id="tentang">
-
+    <!-- ========================= MASALAH KLIEN SECTION ========================= -->
+    <section class="section-padding" id="masalah">
         <div class="container">
-
-            <div class="section-heading text-center" data-aos="fade-up">
-
-                <span class="section-subtitle">
-                    Tentang Kami
-                </span>
-
-                <h2 class="section-title">
-                    Tentang DevWorksID
-                </h2>
-
+            <div class="text-center section-heading" data-aos="fade-up">
+                <span class="section-subtitle">Masalah yang Sering Dialami</span>
+                <h2 class="section-title">Apakah Anda Mengalami Hal Ini?</h2>
+                <p class="text-muted mt-3" style="max-width:650px;margin:0 auto;">Banyak pemilik usaha dan profesional
+                    menghadapi tantangan digital yang menghambat pertumbuhan bisnis mereka.</p>
             </div>
-
-            <div class="row align-items-center gy-5 mt-4">
-
-                <div class="col-lg-6" data-aos="fade-right">
-
-                    <img src="assets/images/background_cover.jpeg" class="img-fluid about-image"
-                        alt="Tentang DevWorksID">
-
-                </div>
-
-                <div class="col-lg-6" data-aos="fade-left">
-
-                    <div class="about-content">
-
-                        <h3>
-                            Freelance Developer & Digital Solution Partner
-                        </h3>
-
-                        <p>
-                            DevWorksID adalah layanan freelance developer yang berfokus pada
-                            pengembangan website, sistem informasi, dan solusi digital yang
-                            disesuaikan dengan kebutuhan setiap klien.
-                        </p>
-
-                        <p>
-                            Dengan proses kerja yang transparan, harga terjangkau, serta
-                            konsultasi gratis, kami membantu mewujudkan ide menjadi produk
-                            digital yang siap digunakan.
-                        </p>
-
-                        <div class="about-list">
-
-                            <div class="about-item">
-                                <i class="bi bi-check-circle-fill"></i>
-                                <span>Harga Terjangkau — Layanan berkualitas dengan biaya yang kompetitif</span>
-                            </div>
-
-                            <div class="about-item">
-                                <i class="bi bi-check-circle-fill"></i>
-                                <span>Proses Mudah — Alur pengerjaan sederhana, transparan, dan mudah dipahami</span>
-                            </div>
-
-                            <div class="about-item">
-                                <i class="bi bi-check-circle-fill"></i>
-                                <span>Konsultasi Gratis — Diskusikan kebutuhan website atau sistem tanpa biaya</span>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Wave Divider (Tentang -> Layanan) -->
-    <div class="hero-wave" style="background: #ffffff;">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
-            <path fill="#020617" fill-opacity="0.3" d="M0,70 Q360,130 720,70 T1440,70 L1440,130 L0,130 Z"></path>
-            <path fill="#020617" fill-opacity="1" d="M0,50 Q360,110 720,50 T1440,50 L1440,130 L0,130 Z"></path>
-        </svg>
-    </div>
-
-    <!-- Services -->
-    <section class="section-padding services-section" id="layanan">
-
-        <div class="container">
-
-            <div class="section-heading text-center" data-aos="fade-up">
-
-                <span class="section-subtitle">
-                    Layanan
-                </span>
-
-                <h2 class="section-title text-white">
-                    Layanan Digital Kami
-                </h2>
-
-            </div>
-
-            <!-- Desktop -->
-            <div class="row g-4 mt-4 desktop-services">
-
-                <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-card">
-                        <h4>Website UMKM</h4>
-                        <p>
-                            Membantu bisnis memiliki website profesional untuk meningkatkan
-                            kredibilitas dan pemasaran digital.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="200">
-                    <div class="service-card">
-                        <h4>Website Company Profile</h4>
-                        <p>
-                            Menampilkan identitas perusahaan secara profesional dengan
-                            desain modern dan responsif.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="300">
-                    <div class="service-card">
-                        <h4>Pendampingan Skripsi</h4>
-                        <p>
-                            Pendampingan pengembangan sistem, implementasi program, dan
-                            dokumentasi penelitian berbasis teknologi.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-xl-3" data-aos="fade-up" data-aos-delay="400">
-                    <div class="service-card">
-                        <h4>Sistem Informasi</h4>
-                        <p>
-                            Pengembangan sistem informasi berbasis web sesuai kebutuhan
-                            operasional bisnis maupun instansi.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Mobile Carousel -->
-            <div id="servicesCarousel" class="carousel slide mobile-carousel mt-5" data-bs-ride="carousel">
-
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-                        <div class="service-card">
-                            <h4>Website UMKM</h4>
-                            <p>Membantu bisnis memiliki website profesional untuk meningkatkan kredibilitas dan
-                                pemasaran digital.</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="service-card">
-                            <h4>Website Company Profile</h4>
-                            <p>Menampilkan identitas perusahaan secara profesional dengan desain modern dan responsif.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="service-card">
-                            <h4>Pendampingan Skripsi</h4>
-                            <p>Pendampingan pengembangan sistem, implementasi program, dan dokumentasi penelitian
-                                berbasis teknologi.</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="service-card">
-                            <h4>Sistem Informasi</h4>
-                            <p>Pengembangan sistem informasi berbasis web sesuai kebutuhan operasional bisnis maupun
-                                instansi.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarousel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-
-                <button class="carousel-control-next" type="button" data-bs-target="#servicesCarousel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- Portfolio -->
-    <section class="section-padding" id="portfolio">
-
-        <div class="container">
-
-            <div class="section-heading text-center" data-aos="fade-up">
-
-                <span class="section-subtitle">
-                    Portfolio
-                </span>
-
-                <h2 class="section-title">
-                    Portfolio Proyek
-                </h2>
-
-                <p
-                    style="color: var(--text); max-width: 600px; margin: 16px auto 0; line-height: 1.8; font-size: 0.97rem;">
-                    Berbagai solusi digital yang telah dikembangkan untuk membantu
-                    meningkatkan efisiensi dan produktivitas.
-                </p>
-
-                <div class="portfolio-disclaimer">
-                    <i class="bi bi-info-circle-fill"></i>
-                    Tampilan pada setiap card merupakan ilustrasi kategori layanan, bukan demo website yang sudah jadi.
-                </div>
-
-            </div>
-
-            <!-- Desktop -->
-            <div class="row g-4 mt-4 desktop-portfolio">
-
-                <!-- 1 -->
+            <div class="row g-4 mt-4">
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="portfolio-card lightbox-trigger" data-title="Kasir / POS System"
-                        data-category="Point of Sale"
-                        data-desc="Sistem kasir digital berbasis web untuk warung, toko retail, dan UMKM. Fitur: transaksi, struk, laporan harian, dan stok barang."
-                        data-images='[
-                            "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1400&auto=format&fit=crop",
-                            "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?q=80&w=1400&auto=format&fit=crop",
-                            "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1400&auto=format&fit=crop"
-                        ]'>
+                    <div class="problem-card">
+                        <div class="problem-icon"><i class="bi bi-globe-americas"></i></div>
+                        <h5>Belum Punya Website</h5>
+                        <p>Bisnis Anda belum memiliki kehadiran online sehingga calon pelanggan sulit menemukan
+                            informasi tentang produk atau jasa Anda.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="problem-card">
+                        <div class="problem-icon"><i class="bi bi-search"></i></div>
+                        <h5>Sulit Ditemukan Online</h5>
+                        <p>Pelanggan potensial tidak bisa menemukan bisnis Anda di internet, sementara kompetitor sudah
+                            tampil profesional secara digital.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="problem-card">
+                        <div class="problem-icon"><i class="bi bi-clipboard-x"></i></div>
+                        <h5>Operasional Masih Manual</h5>
+                        <p>Pencatatan transaksi, stok, dan laporan masih dilakukan secara manual yang rawan kesalahan
+                            dan memakan waktu.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="problem-card">
+                        <div class="problem-icon"><i class="bi bi-database-x"></i></div>
+                        <h5>Data Tidak Terorganisir</h5>
+                        <p>Data pelanggan, penjualan, dan inventaris tersebar di berbagai tempat sehingga sulit untuk
+                            mengambil keputusan bisnis.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="problem-card">
+                        <div class="problem-icon"><i class="bi bi-hourglass-split"></i></div>
+                        <h5>Administrasi Menyita Waktu</h5>
+                        <p>Waktu Anda habis untuk urusan administrasi yang seharusnya bisa diotomasi, sehingga fokus
+                            bisnis terganggu.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="problem-card">
+                        <div class="problem-icon"><i class="bi bi-question-circle"></i></div>
+                        <h5>Bingung Harus Mulai dari Mana</h5>
+                        <p>Ingin go digital tapi tidak tahu harus mulai dari mana, teknologi apa yang cocok, dan berapa
+                            biayanya.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave Divider: Masalah -> Solusi -->
+    <div class="masalah-wave">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#020617" d="M0,40 C240,100 480,0 720,50 C960,100 1200,10 1440,50 L1440,100 L0,100 Z" />
+        </svg>
+    </div>
+
+    <!-- ========================= SOLUSI SECTION ========================= -->
+    <section class="services-section section-padding" id="solusi">
+        <div class="container">
+            <div class="text-center section-heading" data-aos="fade-up">
+                <span class="section-subtitle" style="color:#60a5fa;">Solusi Kami</span>
+                <h2 class="section-title" style="color:white;">Layanan yang Kami Tawarkan</h2>
+                <p class="mt-3" style="color:#94a3b8;max-width:650px;margin:0 auto;">Setiap solusi dirancang untuk
+                    menjawab kebutuhan spesifik bisnis Anda, dengan pendekatan yang mudah dipahami dan hasil yang
+                    terukur.</p>
+            </div>
+
+            <!-- Desktop Services -->
+            <div class="row g-4 mt-4 desktop-services">
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <i class="bi bi-building"
+                            style="font-size:2.2rem;color:#60a5fa;display:block;margin-bottom:18px;"></i>
+                        <h4>Website Company Profile</h4>
+                        <p>Tampilkan bisnis Anda secara profesional di internet. Calon pelanggan bisa langsung mengenal
+                            produk, layanan, dan cara menghubungi Anda kapan saja.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <i class="bi bi-shop"
+                            style="font-size:2.2rem;color:#60a5fa;display:block;margin-bottom:18px;"></i>
+                        <h4>Website UMKM & Toko Online</h4>
+                        <p>Jual produk Anda 24 jam tanpa batas wilayah. Pelanggan bisa melihat katalog, memesan, dan
+                            membayar langsung dari website Anda.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <i class="bi bi-pc-display"
+                            style="font-size:2.2rem;color:#60a5fa;display:block;margin-bottom:18px;"></i>
+                        <h4>Sistem Informasi & Kasir</h4>
+                        <p>Otomasi pencatatan transaksi, stok, dan laporan keuangan. Hemat waktu, kurangi kesalahan, dan
+                            pantau bisnis dari mana saja.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card">
+                        <i class="bi bi-mortarboard"
+                            style="font-size:2.2rem;color:#60a5fa;display:block;margin-bottom:18px;"></i>
+                        <h4>Pendampingan Skripsi</h4>
+                        <p>Butuh sistem informasi untuk tugas akhir? Kami bantu dari perancangan hingga implementasi
+                            agar skripsi Anda selesai tepat waktu.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Carousel Services -->
+            <div class="mobile-carousel mt-4" id="servicesCarousel">
+                <div id="servicesCarouselInner" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="service-card">
+                                <i class="bi bi-building"
+                                    style="font-size:2.2rem;color:#60a5fa;display:block;margin-bottom:18px;"></i>
+                                <h4>Website Company Profile</h4>
+                                <p>Tampilkan bisnis Anda secara profesional di internet. Calon pelanggan bisa langsung
+                                    mengenal produk, layanan, dan cara menghubungi Anda kapan saja.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="service-card">
+                                <i class="bi bi-shop"
+                                    style="font-size:2.2rem;color:#60a5fa;display:block;margin-bottom:18px;"></i>
+                                <h4>Website UMKM & Toko Online</h4>
+                                <p>Jual produk Anda 24 jam tanpa batas wilayah. Pelanggan bisa melihat katalog, memesan,
+                                    dan membayar langsung dari website Anda.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="service-card">
+                                <i class="bi bi-pc-display"
+                                    style="font-size:2.2rem;color:#60a5fa;display:block;margin-bottom:18px;"></i>
+                                <h4>Sistem Informasi & Kasir</h4>
+                                <p>Otomasi pencatatan transaksi, stok, dan laporan keuangan. Hemat waktu, kurangi
+                                    kesalahan, dan pantau bisnis dari mana saja.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="service-card">
+                                <i class="bi bi-mortarboard"
+                                    style="font-size:2.2rem;color:#60a5fa;display:block;margin-bottom:18px;"></i>
+                                <h4>Pendampingan Skripsi</h4>
+                                <p>Butuh sistem informasi untuk tugas akhir? Kami bantu dari perancangan hingga
+                                    implementasi agar skripsi Anda selesai tepat waktu.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#servicesCarouselInner"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#servicesCarouselInner"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================= MENGAPA KAMI SECTION ========================= -->
+    <section class="section-padding" id="tentang">
+        <div class="container">
+            <div class="text-center section-heading" data-aos="fade-up">
+                <span class="section-subtitle">Mengapa Kami</span>
+                <h2 class="section-title">Alasan Klien Mempercayai DevWorksID</h2>
+                <p class="text-muted mt-3" style="max-width:650px;margin:0 auto;">Kami tidak hanya membuat website —
+                    kami memastikan Anda mendapat pengalaman terbaik dari awal konsultasi hingga proyek selesai.</p>
+            </div>
+            <div class="row g-4 mt-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="trust-card">
+                        <div class="trust-icon"><i class="bi bi-chat-dots"></i></div>
+                        <h5>Konsultasi Gratis</h5>
+                        <p>Ceritakan kebutuhan Anda tanpa biaya. Kami bantu analisa solusi terbaik sebelum Anda
+                            memutuskan.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="trust-card">
+                        <div class="trust-icon"><i class="bi bi-currency-dollar"></i></div>
+                        <h5>Harga Transparan</h5>
+                        <p>Tidak ada biaya tersembunyi. Anda tahu persis apa yang didapat dan berapa biayanya sejak
+                            awal.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="trust-card">
+                        <div class="trust-icon"><i class="bi bi-list-check"></i></div>
+                        <h5>Proses Jelas</h5>
+                        <p>Dari konsultasi, desain, development, hingga launch — setiap tahap dikomunikasikan dengan
+                            jelas.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="trust-card">
+                        <div class="trust-icon"><i class="bi bi-headset"></i></div>
+                        <h5>Dukungan Setelah Proyek</h5>
+                        <p>Proyek selesai bukan berarti hubungan berakhir. Kami tetap siap membantu jika ada kendala
+                            atau update.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="trust-card">
+                        <div class="trust-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>Komunikasi Cepat</h5>
+                        <p>Respons cepat via WhatsApp. Tidak perlu menunggu lama untuk mendapat jawaban atau update
+                            progress.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="trust-card">
+                        <div class="trust-icon"><i class="bi bi-puzzle"></i></div>
+                        <h5>Solusi Sesuai Kebutuhan</h5>
+                        <p>Tidak ada solusi template. Setiap proyek disesuaikan dengan kebutuhan, skala, dan budget
+                            Anda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================= PORTFOLIO SECTION ========================= -->
+    <section class="section-padding" id="portfolio" style="background:#f8fafc;">
+        <div class="container">
+            <div class="text-center section-heading" data-aos="fade-up">
+                <span class="section-subtitle">Portfolio</span>
+                <h2 class="section-title">Proyek yang Pernah Kami Kerjakan</h2>
+                <p class="text-muted mt-3" style="max-width:650px;margin:0 auto;">Setiap proyek dimulai dari masalah
+                    nyata klien dan diakhiri dengan solusi yang memberikan dampak.</p>
+                <div class="portfolio-disclaimer">
+                    <i class="bi bi-info-circle"></i>
+                    <span>Gambar bersifat ilustrasi. Detail proyek asli dijaga kerahasiaannya.</span>
+                </div>
+            </div>
+
+            <!-- Desktop Portfolio -->
+            <div class="row g-4 mt-4 desktop-portfolio">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card lightbox-trigger"
+                        data-images='["https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1601597111158-2fceff292cdc?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1400&auto=format&fit=crop"]'>
                         <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1200&auto=format&fit=crop"
-                            alt="Kasir POS System">
-                        <div class="portfolio-overlay-icon"><i class="bi bi-images"></i></div>
+                            alt="Sistem POS">
                         <div class="portfolio-content">
-                            <span>Point of Sale</span>
-                            <h4>Kasir / POS System</h4>
-                            <p>Sistem kasir digital untuk transaksi, manajemen stok, dan laporan penjualan dalam satu
-                                aplikasi.</p>
+                            <span>Sistem POS</span>
+                            <h4>Aplikasi Kasir & Manajemen Stok</h4>
+                            <p>Kami membangun sistem kasir digital terintegrasi untuk klien yang sebelumnya mengandalkan pencatatan manual, sehingga rentan kesalahan dan memperlambat operasional. Hasilnya, efisiensi operasional bisnis mereka meningkat hingga 60%.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- 2 -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="portfolio-card lightbox-trigger" data-title="Financial Management System"
-                        data-category="Keuangan"
-                        data-desc="Aplikasi pembukuan dan laporan keuangan online. Fitur: pemasukan, pengeluaran, laba rugi, dan ekspor laporan."
-                        data-images='[
-                            "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1400&auto=format&fit=crop",
-                            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1400&auto=format&fit=crop",
-                            "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1400&auto=format&fit=crop"
-                        ]'>
+                    <div class="portfolio-card lightbox-trigger"
+                        data-images='["https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1400&auto=format&fit=crop"]'>
                         <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200&auto=format&fit=crop"
-                            alt="Financial Management">
-                        <div class="portfolio-overlay-icon"><i class="bi bi-images"></i></div>
+                            alt="Sistem Keuangan">
                         <div class="portfolio-content">
                             <span>Keuangan</span>
-                            <h4>Financial Management System</h4>
-                            <p>Kelola pembukuan, pemasukan, pengeluaran, dan laporan laba rugi secara digital dan
-                                terorganisir.</p>
+                            <h4>Sistem Laporan Keuangan</h4>
+                            <p>Laporan keuangan klien yang tersebar di berbagai spreadsheet menyulitkan pengambilan keputusan bisnis. Kami menghadirkan dashboard keuangan otomatis berbasis real-time, sehingga laporan bulanan kini selesai dalam hitungan menit.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- 3 -->
                 <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="portfolio-card lightbox-trigger" data-title="Sistem Informasi Sekolah"
-                        data-category="Pendidikan"
-                        data-desc="Portal akademik lengkap: profil sekolah/kampus, pengumuman, data siswa, jadwal, dan galeri kegiatan."
-                        data-images='[
-                            "https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1400&auto=format&fit=crop",
-                            "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1400&auto=format&fit=crop",
-                            "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=1400&auto=format&fit=crop"
-                        ]'>
+                    <div class="portfolio-card lightbox-trigger"
+                        data-images='["https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=1400&auto=format&fit=crop"]'>
                         <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1200&auto=format&fit=crop"
-                            alt="Sistem Informasi Sekolah">
-                        <div class="portfolio-overlay-icon"><i class="bi bi-images"></i></div>
+                            alt="Sistem Sekolah">
                         <div class="portfolio-content">
-                            <span>Pendidikan</span>
-                            <h4>Sistem Informasi Sekolah</h4>
-                            <p>Portal akademik modern: profil institusi, pengumuman, data siswa, jadwal, dan galeri
-                                kegiatan.</p>
+                            <span>Sekolah</span>
+                            <h4>Sistem Informasi Akademik</h4>
+                            <p>Data siswa, nilai, dan jadwal yang sebelumnya tersebar tanpa struktur membuat administrasi sekolah kewalahan. Kami membangun platform akademik terpusat yang mengintegrasikan semua data, menjadikan proses administrasi 3x lebih cepat dari sebelumnya.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- 4 -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="portfolio-card lightbox-trigger" data-title="CRM System" data-category="Bisnis"
-                        data-desc="Kelola data pelanggan, riwayat transaksi, follow-up, dan pipeline penjualan dalam satu dashboard terintegrasi."
-                        data-images='[
-                            "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=1400&auto=format&fit=crop",
-                            "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1400&auto=format&fit=crop",
-                            "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1400&auto=format&fit=crop"
-                        ]'>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card lightbox-trigger"
+                        data-images='["https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1400&auto=format&fit=crop"]'>
                         <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=1200&auto=format&fit=crop"
-                            alt="CRM System">
-                        <div class="portfolio-overlay-icon"><i class="bi bi-images"></i></div>
+                            alt="Sistem CRM">
                         <div class="portfolio-content">
-                            <span>Bisnis</span>
-                            <h4>CRM System</h4>
-                            <p>Kelola data pelanggan, riwayat transaksi, dan follow-up penjualan dalam satu dashboard.
-                            </p>
+                            <span>CRM</span>
+                            <h4>Customer Relationship Management</h4>
+                            <p>Tim penjualan klien sering melewatkan jadwal follow-up pelanggan karena tidak ada sistem pengingat yang terstruktur. Kami merancang sistem CRM lengkap dengan fitur reminder otomatis, yang berhasil mendongkrak tingkat konversi penjualan mereka sebesar 40%.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- 5 -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <div class="portfolio-card lightbox-trigger" data-title="Toko Online (E-Commerce)"
-                        data-category="E-Commerce"
-                        data-desc="Toko online dengan katalog produk, keranjang belanja, dan WhatsApp order — cocok untuk UMKM yang ingin jualan online."
-                        data-images='[
-                            "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1400&auto=format&fit=crop",
-                            "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=1400&auto=format&fit=crop",
-                            "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1400&auto=format&fit=crop"
-                        ]'>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="portfolio-card lightbox-trigger"
+                        data-images='["https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1400&auto=format&fit=crop"]'>
                         <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1200&auto=format&fit=crop"
-                            alt="Toko Online">
-                        <div class="portfolio-overlay-icon"><i class="bi bi-images"></i></div>
+                            alt="E-Commerce">
                         <div class="portfolio-content">
                             <span>E-Commerce</span>
-                            <h4>Toko Online (E-Commerce)</h4>
-                            <p>Toko online dengan katalog produk dan order via WhatsApp — solusi jualan online untuk
-                                UMKM.</p>
+                            <h4>Toko Online & Katalog Digital</h4>
+                            <p>Bisnis klien sebelumnya hanya bisa melayani pelanggan yang datang langsung ke toko fisik, sehingga potensi pasar sangat terbatas. Dengan platform e-commerce yang kami kembangkan, produk mereka kini dapat ditemukan dan dibeli oleh pelanggan dari seluruh Indonesia.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- 6 -->
-                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                    <div class="portfolio-card lightbox-trigger" data-title="Website Company Profile"
-                        data-category="Branding"
-                        data-desc="Website profil usaha yang profesional, meyakinkan pelanggan, dan meningkatkan kepercayaan terhadap bisnis Anda."
-                        data-images='[
-                            "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1400&auto=format&fit=crop",
-                            "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1400&auto=format&fit=crop",
-                            "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1400&auto=format&fit=crop"
-                        ]'>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="portfolio-card lightbox-trigger"
+                        data-images='["https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1400&auto=format&fit=crop"]'>
                         <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1200&auto=format&fit=crop"
-                            alt="Website Company Profile">
-                        <div class="portfolio-overlay-icon"><i class="bi bi-images"></i></div>
+                            alt="Company Profile">
                         <div class="portfolio-content">
-                            <span>Branding</span>
-                            <h4>Website Company Profile</h4>
-                            <p>Tampilkan profil usaha yang profesional dan meyakinkan agar pelanggan lebih percaya
-                                dengan bisnis Anda.</p>
+                            <span>Company Profile</span>
+                            <h4>Website Profil Perusahaan</h4>
+                            <p>Perusahaan klien belum memiliki kehadiran digital yang memadai sehingga sulit mendapatkan kepercayaan dari calon mitra dan pelanggan baru. Kami membangun website profil yang modern, responsif, dan mencerminkan nilai profesionalisme bisnis mereka — hasilnya kepercayaan klien meningkat signifikan.</p>
                         </div>
                     </div>
                 </div>
-
             </div>
 
-            <!-- Mobile Carousel -->
-            <div id="portfolioCarousel" class="carousel slide mobile-carousel mt-4" data-bs-ride="carousel">
-
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-                        <div class="portfolio-card lightbox-trigger" data-title="Kasir / POS System"
-                            data-category="Point of Sale"
-                            data-desc="Sistem kasir digital untuk transaksi, stok, dan laporan."
-                            data-images='["https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1601597111158-2fceff292cdc?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1400&auto=format&fit=crop"]'>
-                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1200&auto=format&fit=crop"
-                                alt="Kasir POS">
-                            <div class="portfolio-overlay-icon"><i class="bi bi-images"></i></div>
-                            <div class="portfolio-content">
-                                <span>Point of Sale</span>
-                                <h4>Kasir / POS System</h4>
-                                <p>Sistem kasir digital untuk transaksi, manajemen stok, dan laporan penjualan.</p>
+            <!-- Mobile Carousel Portfolio -->
+            <div class="mobile-carousel mt-4" id="portfolioCarousel">
+                <div id="portfolioCarouselInner" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="portfolio-card lightbox-trigger"
+                                data-images='["https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1601597111158-2fceff292cdc?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1400&auto=format&fit=crop"]'>
+                                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=1200&auto=format&fit=crop"
+                                    alt="Sistem POS">
+                                <div class="portfolio-content">
+                                    <span>Sistem POS</span>
+                                    <h4>Aplikasi Kasir & Manajemen Stok</h4>
+                                    <p>Kami membangun sistem kasir digital terintegrasi untuk klien yang sebelumnya mengandalkan pencatatan manual, sehingga rentan kesalahan dan memperlambat operasional. Hasilnya, efisiensi operasional bisnis mereka meningkat hingga 60%.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="portfolio-card lightbox-trigger"
+                                data-images='["https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1400&auto=format&fit=crop"]'>
+                                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200&auto=format&fit=crop"
+                                    alt="Sistem Keuangan">
+                                <div class="portfolio-content">
+                                    <span>Keuangan</span>
+                                    <h4>Sistem Laporan Keuangan</h4>
+                                    <p>Laporan keuangan klien yang tersebar di berbagai spreadsheet menyulitkan pengambilan keputusan bisnis. Kami menghadirkan dashboard keuangan otomatis berbasis real-time, sehingga laporan bulanan kini selesai dalam hitungan menit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="portfolio-card lightbox-trigger"
+                                data-images='["https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=1400&auto=format&fit=crop"]'>
+                                <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1200&auto=format&fit=crop"
+                                    alt="Sistem Sekolah">
+                                <div class="portfolio-content">
+                                    <span>Sekolah</span>
+                                    <h4>Sistem Informasi Akademik</h4>
+                                    <p>Data siswa, nilai, dan jadwal yang sebelumnya tersebar tanpa struktur membuat administrasi sekolah kewalahan. Kami membangun platform akademik terpusat yang mengintegrasikan semua data, menjadikan proses administrasi 3x lebih cepat dari sebelumnya.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="portfolio-card lightbox-trigger"
+                                data-images='["https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1400&auto=format&fit=crop"]'>
+                                <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=1200&auto=format&fit=crop"
+                                    alt="Sistem CRM">
+                                <div class="portfolio-content">
+                                    <span>CRM</span>
+                                    <h4>Customer Relationship Management</h4>
+                                    <p>Tim penjualan klien sering melewatkan jadwal follow-up pelanggan karena tidak ada sistem pengingat yang terstruktur. Kami merancang sistem CRM lengkap dengan fitur reminder otomatis, yang berhasil mendongkrak tingkat konversi penjualan mereka sebesar 40%.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="portfolio-card lightbox-trigger"
+                                data-images='["https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1400&auto=format&fit=crop"]'>
+                                <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1200&auto=format&fit=crop"
+                                    alt="E-Commerce">
+                                <div class="portfolio-content">
+                                    <span>E-Commerce</span>
+                                    <h4>Toko Online & Katalog Digital</h4>
+                                    <p>Bisnis klien sebelumnya hanya bisa melayani pelanggan yang datang langsung ke toko fisik, sehingga potensi pasar sangat terbatas. Dengan platform e-commerce yang kami kembangkan, produk mereka kini dapat ditemukan dan dibeli oleh pelanggan dari seluruh Indonesia.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="portfolio-card lightbox-trigger"
+                                data-images='["https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1400&auto=format&fit=crop"]'>
+                                <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1200&auto=format&fit=crop"
+                                    alt="Company Profile">
+                                <div class="portfolio-content">
+                                    <span>Company Profile</span>
+                                    <h4>Website Profil Perusahaan</h4>
+                                    <p>Perusahaan klien belum memiliki kehadiran digital yang memadai sehingga sulit mendapatkan kepercayaan dari calon mitra dan pelanggan baru. Kami membangun website profil yang modern, responsif, dan mencerminkan nilai profesionalisme bisnis mereka — hasilnya kepercayaan klien meningkat signifikan.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="carousel-item">
-                        <div class="portfolio-card lightbox-trigger" data-title="Financial Management System"
-                            data-category="Keuangan" data-desc="Kelola pembukuan dan laporan keuangan secara digital."
-                            data-images='["https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1400&auto=format&fit=crop"]'>
-                            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200&auto=format&fit=crop"
-                                alt="Financial Management">
-                            <div class="portfolio-overlay-icon"><i class="bi bi-images"></i></div>
-                            <div class="portfolio-content">
-                                <span>Keuangan</span>
-                                <h4>Financial Management System</h4>
-                                <p>Kelola pembukuan, pemasukan, pengeluaran, dan laporan laba rugi secara digital.</p>
-                            </div>
-                        </div>
+                    <div class="portfolio-indicators">
+                        <button type="button" data-bs-target="#portfolioCarouselInner" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#portfolioCarouselInner" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#portfolioCarouselInner" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#portfolioCarouselInner" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#portfolioCarouselInner" data-bs-slide-to="4"></button>
+                        <button type="button" data-bs-target="#portfolioCarouselInner" data-bs-slide-to="5"></button>
                     </div>
-
-                    <div class="carousel-item">
-                        <div class="portfolio-card lightbox-trigger" data-title="Sistem Informasi Sekolah"
-                            data-category="Pendidikan" data-desc="Portal akademik modern untuk sekolah dan kampus."
-                            data-images='["https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=1400&auto=format&fit=crop"]'>
-                            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=1200&auto=format&fit=crop"
-                                alt="Sistem Informasi Sekolah">
-                            <div class="portfolio-overlay-icon"><i class="bi bi-images"></i></div>
-                            <div class="portfolio-content">
-                                <span>Pendidikan</span>
-                                <h4>Sistem Informasi Sekolah</h4>
-                                <p>Portal akademik modern: profil institusi, pengumuman, jadwal, dan galeri kegiatan.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="portfolio-card lightbox-trigger" data-title="CRM System" data-category="Bisnis"
-                            data-desc="Kelola data pelanggan dan pipeline penjualan dalam satu dashboard."
-                            data-images='["https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1400&auto=format&fit=crop"]'>
-                            <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=1200&auto=format&fit=crop"
-                                alt="CRM System">
-                            <div class="portfolio-overlay-icon"><i class="bi bi-images"></i></div>
-                            <div class="portfolio-content">
-                                <span>Bisnis</span>
-                                <h4>CRM System</h4>
-                                <p>Kelola data pelanggan, riwayat transaksi, dan follow-up penjualan dalam satu
-                                    dashboard.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="portfolio-card lightbox-trigger" data-title="Toko Online (E-Commerce)"
-                            data-category="E-Commerce"
-                            data-desc="Toko online dengan katalog produk dan order via WhatsApp."
-                            data-images='["https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=80&w=1400&auto=format&fit=crop"]'>
-                            <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1200&auto=format&fit=crop"
-                                alt="Toko Online">
-                            <div class="portfolio-overlay-icon"><i class="bi bi-images"></i></div>
-                            <div class="portfolio-content">
-                                <span>E-Commerce</span>
-                                <h4>Toko Online (E-Commerce)</h4>
-                                <p>Toko online dengan katalog produk dan order via WhatsApp — solusi jualan online untuk
-                                    UMKM.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="portfolio-card lightbox-trigger" data-title="Website Company Profile"
-                            data-category="Branding"
-                            data-desc="Website profil usaha profesional yang meningkatkan kepercayaan pelanggan."
-                            data-images='["https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=1400&auto=format&fit=crop","https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1400&auto=format&fit=crop"]'>
-                            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=1200&auto=format&fit=crop"
-                                alt="Company Profile">
-                            <div class="portfolio-overlay-icon"><i class="bi bi-images"></i></div>
-                            <div class="portfolio-content">
-                                <span>Branding</span>
-                                <h4>Website Company Profile</h4>
-                                <p>Tampilkan profil usaha yang profesional agar pelanggan lebih percaya dengan bisnis
-                                    Anda.</p>
-                            </div>
-                        </div>
-                    </div>
-
+                    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarouselInner"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarouselInner"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
                 </div>
-
-                <div class="carousel-indicators portfolio-indicators">
-                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active"
-                        aria-current="true"></button>
-                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="3"></button>
-                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="4"></button>
-                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="5"></button>
-                </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-
             </div>
-
         </div>
-
     </section>
 
-    <!-- Harga / Paket -->
-    <section class="section-padding pricing-section" id="harga">
-
+    <!-- ========================= TESTIMONI SECTION ========================= -->
+    <section class="section-padding testimoni-section" id="testimoni">
         <div class="container">
-
-            <div class="section-heading text-center" data-aos="fade-up">
-
-                <span class="section-subtitle">
-                    Paket & Harga
-                </span>
-
-                <h2 class="section-title">
-                    Paket Harga Transparan
-                </h2>
-
-                <p
-                    style="color: var(--text); max-width: 600px; margin: 16px auto 0; line-height: 1.8; font-size: 0.97rem;">
-                    Pilih paket yang sesuai dengan kebutuhan Anda.
-                </p>
-
+            <div class="text-center section-heading" data-aos="fade-up">
+                <span class="section-subtitle">Testimoni</span>
+                <h2 class="section-title">Apa Kata Klien Kami</h2>
+                <p class="text-muted mt-3" style="max-width:650px;margin:0 auto;">Kepuasan klien adalah prioritas utama
+                    kami. Berikut pengalaman mereka bekerja sama dengan DevWorksID.</p>
             </div>
 
-            <div class="row g-4 mt-4 align-items-stretch pricing-cards">
+            <!-- Carousel Wrapper -->
+            <div class="testimoni-carousel-wrapper" data-aos="fade-up" data-aos-delay="150">
+                <div id="testimoniCarousel" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-inner">
 
-                <!-- Paket 1 -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        <!-- Slide 1 (Desktop: card 1-3 | Mobile: card 1) -->
+                        <div class="carousel-item active">
+                            <div class="testimoni-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-stars">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>"Website toko online kami jadi jauh lebih profesional dan penjualan meningkat signifikan sejak diluncurkan. Prosesnya cepat, komunikatif, dan hasilnya melebihi ekspektasi."</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">RS</div>
+                                        <div>
+                                            <strong>Rina Susanti</strong>
+                                            <span>Pemilik Toko Fashion Online</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-card">
+                                    <div class="testimonial-stars">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>"Sistem kasir yang dibuatkan sangat membantu operasional warung kami. Sekarang laporan harian otomatis, stok selalu terpantau, dan saya tidak perlu repot mencatat manual lagi."</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">AF</div>
+                                        <div>
+                                            <strong>Ahmad Fauzi</strong>
+                                            <span>Pemilik Warung Makan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-card">
+                                    <div class="testimonial-stars">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>"Skripsi saya selesai tepat waktu berkat pendampingan penuh dari DevWorksID. Setiap tahap dijelaskan dengan sabar dan jelas, hingga sidang berjalan lancar."</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">DP</div>
+                                        <div>
+                                            <strong>Dian Pratama</strong>
+                                            <span>Mahasiswa Teknik Informatika</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 2 (Desktop: card 4-6 | Mobile: card 4) -->
+                        <div class="carousel-item">
+                            <div class="testimoni-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-stars">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>"Kami sangat puas dengan website company profile yang dibuat. Desainnya bersih dan profesional, klien baru langsung tertarik menghubungi kami setelah melihat website tersebut."</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">BH</div>
+                                        <div>
+                                            <strong>Budi Hartono</strong>
+                                            <span>Direktur CV. Maju Bersama</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-card">
+                                    <div class="testimonial-stars">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>"Sistem informasi akademik yang dikembangkan benar-benar mengubah cara kami mengelola data siswa. Proses yang tadinya berhari-hari kini selesai dalam hitungan jam."</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">SW</div>
+                                        <div>
+                                            <strong>Siti Wahyuni</strong>
+                                            <span>Kepala Tata Usaha SMP Harapan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-card">
+                                    <div class="testimonial-stars">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>"Tim DevWorksID sangat responsif dan memahami kebutuhan bisnis kami. Dashboard keuangan yang mereka buat memudahkan saya memantau performa toko dari mana saja."</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">MR</div>
+                                        <div>
+                                            <strong>Maya Rahmawati</strong>
+                                            <span>Pemilik Toko Sembako & Kebutuhan Rumah</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mobile-only extra slides (card 2, 3, 5, 6) -->
+                        <div class="carousel-item mobile-only-slide">
+                            <div class="testimoni-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-stars">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>"Sistem kasir yang dibuatkan sangat membantu operasional warung kami. Sekarang laporan harian otomatis, stok selalu terpantau, dan saya tidak perlu repot mencatat manual lagi."</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">AF</div>
+                                        <div>
+                                            <strong>Ahmad Fauzi</strong>
+                                            <span>Pemilik Warung Makan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item mobile-only-slide">
+                            <div class="testimoni-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-stars">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>"Skripsi saya selesai tepat waktu berkat pendampingan penuh dari DevWorksID. Setiap tahap dijelaskan dengan sabar dan jelas, hingga sidang berjalan lancar."</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">DP</div>
+                                        <div>
+                                            <strong>Dian Pratama</strong>
+                                            <span>Mahasiswa Teknik Informatika</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item mobile-only-slide">
+                            <div class="testimoni-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-stars">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>"Sistem informasi akademik yang dikembangkan benar-benar mengubah cara kami mengelola data siswa. Proses yang tadinya berhari-hari kini selesai dalam hitungan jam."</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">SW</div>
+                                        <div>
+                                            <strong>Siti Wahyuni</strong>
+                                            <span>Kepala Tata Usaha SMP Harapan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item mobile-only-slide">
+                            <div class="testimoni-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-stars">
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <p>"Tim DevWorksID sangat responsif dan memahami kebutuhan bisnis kami. Dashboard keuangan yang mereka buat memudahkan saya memantau performa toko dari mana saja."</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">MR</div>
+                                        <div>
+                                            <strong>Maya Rahmawati</strong>
+                                            <span>Pemilik Toko Sembako & Kebutuhan Rumah</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Prev / Next (tanpa data-bs-slide agar navigasi dikendalikan penuh oleh JS) -->
+                    <button class="carousel-control-prev testimoni-prev" type="button" id="testimoniPrevBtn">
+                        <i class="bi bi-chevron-left"></i>
+                    </button>
+                    <button class="carousel-control-next testimoni-next" type="button" id="testimoniNextBtn">
+                        <i class="bi bi-chevron-right"></i>
+                    </button>
+                </div>
+
+                <!-- Dot Indicators -->
+                <div class="testimoni-dots" id="testimoniDots">
+                    <!-- generated by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================= PRICING SECTION ========================= -->
+    <section class="pricing-section section-padding" id="harga">
+        <div class="container">
+            <div class="text-center section-heading" data-aos="fade-up">
+                <span class="section-subtitle" style="color:#60a5fa;">Harga</span>
+                <h2 class="section-title">Paket Layanan Kami</h2>
+                <p style="color:#94a3b8;max-width:650px;margin:0 auto;" class="mt-3">Pilih paket yang sesuai dengan
+                    kebutuhan dan budget Anda. Semua paket sudah termasuk konsultasi gratis.</p>
+            </div>
+            <div class="row g-4 mt-4 pricing-cards">
+                <!-- Landing Page -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="pricing-card">
                         <div class="pricing-header">
                             <h3>Landing Page</h3>
-                            <p>Cocok untuk promosi satu halaman</p>
+                            <p>Cocok untuk personal branding atau promosi produk tunggal</p>
                         </div>
                         <div class="pricing-price">
                             <span class="currency">Mulai dari</span>
-                            <h2>Rp 750k</h2>
+                            <h2>Rp750rb</h2>
                         </div>
                         <ul class="pricing-features">
-                            <li><i class="bi bi-check-circle-fill"></i> Desain 1 Halaman (One-Page)</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Gratis Domain (.my.id) 1 Tahun</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Gratis Hosting 1GB</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Tombol Order WhatsApp</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Responsif di Semua Perangkat</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Desain modern & responsif</li>
+                            <li><i class="bi bi-check-circle-fill"></i> 1 halaman penuh</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Integrasi WhatsApp</li>
+                            <li><i class="bi bi-check-circle-fill"></i> SEO dasar</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Revisi hingga 2x</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Gratis domain .com (1 tahun)</li>
                         </ul>
-                        <a href="https://wa.me/6288210498508?text=Halo%20DevWorksID%2C%20saya%20tertarik%20dengan%20paket%20*Landing%20Page%20(Rp%20750k)*%2C%20bisa%20konsultasi%20lebih%20lanjut%3F"
-                            target="_blank" class="btn btn-outline-primary pricing-btn w-100">Pilih Paket</a>
+                        <a href="https://wa.me/6288210498508?text=Halo%20DevWorksID%2C%20saya%20tertarik%20dengan%20paket%20Landing%20Page"
+                            class="btn btn-custom-primary w-100 pricing-btn" target="_blank">
+                            <i class="bi bi-whatsapp me-2"></i> Pesan Sekarang
+                        </a>
                     </div>
                 </div>
-
-                <!-- Paket 2 (Popular) -->
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <!-- Company Profile -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="pricing-card popular">
-                        <div class="popular-badge">Paling Laris</div>
+                        <div class="popular-badge">Populer</div>
                         <div class="pricing-header">
                             <h3>Company Profile</h3>
-                            <p>Tingkatkan trust pelanggan Anda</p>
+                            <p>Untuk bisnis yang ingin tampil profesional secara online</p>
                         </div>
                         <div class="pricing-price">
                             <span class="currency">Mulai dari</span>
-                            <h2>Rp 1.5jt</h2>
+                            <h2>Rp1.5jt</h2>
                         </div>
                         <ul class="pricing-features">
-                            <li><i class="bi bi-check-circle-fill"></i> Hingga 5 Halaman custom</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Gratis Domain (.com) 1 Tahun</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Gratis Hosting 7GB</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Integrasi Media Sosial</li>
-                            <li><i class="bi bi-check-circle-fill"></i> SEO Dasar & Google Index</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Hingga 5 halaman</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Desain premium & responsif</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Formulir kontak</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Google Maps & WhatsApp</li>
+                            <li><i class="bi bi-check-circle-fill"></i> SEO optimasi</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Revisi hingga 3x</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Gratis domain & hosting (1 tahun)</li>
                         </ul>
-                        <a href="https://wa.me/6288210498508?text=Halo%20DevWorksID%2C%20saya%20tertarik%20dengan%20paket%20*Company%20Profile%20(Rp%201.5jt)*%2C%20bisa%20konsultasi%20lebih%20lanjut%3F"
-                            target="_blank" class="btn btn-custom-primary pricing-btn w-100">Pilih Paket</a>
+                        <a href="https://wa.me/6288210498508?text=Halo%20DevWorksID%2C%20saya%20tertarik%20dengan%20paket%20Company%20Profile"
+                            class="btn btn-custom-primary w-100 pricing-btn" target="_blank">
+                            <i class="bi bi-whatsapp me-2"></i> Pesan Sekarang
+                        </a>
                     </div>
                 </div>
-
-                <!-- Paket 3 -->
-                <div class="col-lg-4 col-md-6 mx-auto" data-aos="fade-up" data-aos-delay="300">
+                <!-- Toko Online / POS -->
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="pricing-card">
                         <div class="pricing-header">
                             <h3>Toko Online / POS</h3>
-                            <p>Sistem jualan atau manajemen</p>
+                            <p>Untuk bisnis yang butuh sistem penjualan dan manajemen lengkap</p>
                         </div>
                         <div class="pricing-price">
                             <span class="currency">Mulai dari</span>
-                            <h2>Rp 2.5jt</h2>
+                            <h2>Rp2.5jt</h2>
                         </div>
                         <ul class="pricing-features">
-                            <li><i class="bi bi-check-circle-fill"></i> Katalog Produk Tak Terbatas</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Gratis Domain (.com) 1 Tahun</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Gratis Hosting 7GB</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Order WhatsApp / Checkout</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Support Teknis 1 Bulan</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Katalog produk & keranjang</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Sistem pembayaran</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Manajemen stok & pesanan</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Dashboard admin</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Laporan penjualan</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Revisi hingga 4x</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Gratis domain & hosting (1 tahun)</li>
                         </ul>
-                        <a href="https://wa.me/6288210498508?text=Halo%20DevWorksID%2C%20saya%20tertarik%20dengan%20paket%20*Toko%20Online%20%2F%20POS%20(Rp%202.5jt)*%2C%20bisa%20konsultasi%20lebih%20lanjut%3F"
-                            target="_blank" class="btn btn-outline-primary pricing-btn w-100">Pilih Paket</a>
+                        <a href="https://wa.me/6288210498508?text=Halo%20DevWorksID%2C%20saya%20tertarik%20dengan%20paket%20Toko%20Online%20%2F%20POS"
+                            class="btn btn-custom-primary w-100 pricing-btn" target="_blank">
+                            <i class="bi bi-whatsapp me-2"></i> Pesan Sekarang
+                        </a>
                     </div>
                 </div>
-
             </div>
-
-            <!-- License Modal Trigger -->
-            <div class="text-center mt-5">
-                <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal"
-                    data-bs-target="#licenseModal"
-                    style="border-radius: 99px; padding: 10px 24px; font-size: 0.95rem; font-weight: 600;">
-                    <i class="bi bi-shield-lock-fill me-2"></i> Baca Syarat Kepemilikan Source Code
+            <div class="text-center mt-5" data-aos="fade-up">
+                <p style="color:#94a3b8;">Butuh fitur khusus? <a
+                        href="https://wa.me/6288210498508?text=Halo%20DevWorksID%2C%20saya%20butuh%20solusi%20custom"
+                        target="_blank" style="color:#60a5fa;font-weight:700;">Hubungi kami</a> untuk penawaran custom.
+                </p>
+                <button class="btn btn-custom-outline mt-3" data-bs-toggle="modal" data-bs-target="#licenseModal"
+                    style="border-color:rgba(255,255,255,0.2);color:#94a3b8;padding:10px 24px;font-size:0.9rem;">
+                    <i class="bi bi-file-earmark-text me-2"></i> Lihat Ketentuan Lisensi
                 </button>
             </div>
-
         </div>
-
     </section>
 
-    <!-- CTA -->
-    <section class="cta-section">
-
+    <!-- ========================= FAQ SECTION ========================= -->
+    <section class="section-padding faq-section" id="faq">
         <div class="container">
-
-            <div class="cta-box text-center" data-aos="zoom-in">
-
-                <h2>
-                    Siap Memulai Proyek Digital Anda?
-                </h2>
-
-                <p>
-                    Diskusikan kebutuhan website atau sistem informasi Anda secara gratis.
-                </p>
-
-                <a href="https://wa.me/6288210498508?text=Halo%20DevWorksID%2C%20saya%20ingin%20konsultasi%20gratis%20mengenai%20proyek%20digital%20saya."
-                    target="_blank" class="btn btn-custom-primary btn-lg-custom mt-3">
-                    Konsultasi Gratis Sekarang
-                </a>
-
+            <div class="text-center section-heading" data-aos="fade-up">
+                <span class="section-subtitle">FAQ</span>
+                <h2 class="section-title">Pertanyaan yang Sering Ditanyakan</h2>
+                <p class="text-muted mt-3" style="max-width:650px;margin:0 auto;">Berikut jawaban untuk pertanyaan yang
+                    paling sering kami terima dari calon klien.</p>
             </div>
-
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq1" aria-expanded="true">
+                                    Berapa lama waktu pengerjaan proyek?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Tergantung kompleksitas proyek. Landing page biasanya 3-5 hari kerja, company
+                                    profile 7-14 hari, dan sistem informasi/toko online 14-30 hari. Timeline pasti akan
+                                    kami informasikan setelah konsultasi.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq2">
+                                    Berapa kali revisi yang didapat?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Setiap paket sudah termasuk revisi (2-4x tergantung paket). Revisi mencakup
+                                    perubahan warna, teks, layout, dan elemen visual. Perubahan besar di luar scope awal
+                                    akan didiskusikan terlebih dahulu.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq3">
+                                    Apakah saya mendapat source code?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Ya, setelah proyek selesai dan pembayaran lunas, seluruh source code menjadi milik
+                                    Anda. Kami juga menyediakan dokumentasi dasar untuk memudahkan pengelolaan.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq4">
+                                    Bagaimana proses konsultasinya?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Cukup hubungi kami via WhatsApp, ceritakan kebutuhan Anda. Kami akan menganalisa dan
+                                    memberikan rekomendasi solusi beserta estimasi biaya — semuanya gratis tanpa
+                                    kewajiban.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq5">
+                                    Apakah website yang dibuat responsif?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Tentu! Semua website yang kami buat sudah responsif dan optimal di semua perangkat —
+                                    desktop, tablet, maupun smartphone. Ini sudah standar di setiap proyek kami.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#faq6">
+                                    Bisa request fitur khusus?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Bisa! Kami menerima request fitur custom sesuai kebutuhan bisnis Anda. Setelah
+                                    konsultasi, kami akan memberikan estimasi biaya dan timeline tambahan untuk fitur
+                                    tersebut.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </section>
 
-    <!-- Contact -->
-    <section class="section-padding" id="kontak">
-
+    <!-- ========================= CTA SECTION ========================= -->
+    <section class="cta-section">
         <div class="container">
+            <div class="cta-box text-center" data-aos="zoom-in" data-aos-duration="800">
+                <h2>Ceritakan Kebutuhan Anda, Kami Siap Membantu.</h2>
+                <p class="mb-4">Konsultasi gratis, tanpa kewajiban. Mari diskusikan solusi terbaik untuk bisnis Anda.
+                </p>
+                <a href="https://wa.me/6288210498508?text=Halo%20DevWorksID%2C%20saya%20ingin%20mendiskusikan%20proyek%20saya"
+                    class="btn btn-custom-primary btn-lg-custom" target="_blank">
+                    <i class="bi bi-whatsapp me-2"></i> Diskusikan Proyek Saya
+                </a>
+            </div>
+        </div>
+    </section>
 
-            <div class="row g-5 align-items-start">
-
+    <!-- ========================= CONTACT SECTION ========================= -->
+    <section class="section-padding" id="kontak">
+        <div class="container">
+            <div class="text-center section-heading" data-aos="fade-up">
+                <span class="section-subtitle">Kontak</span>
+                <h2 class="section-title">Hubungi Kami</h2>
+                <p class="text-muted mt-3" style="max-width:650px;margin:0 auto;">Siap memulai proyek Anda? Isi form di
+                    bawah atau langsung hubungi kami via WhatsApp.</p>
+            </div>
+            <div class="row g-4 mt-4">
                 <!-- Left: Info Panel -->
-                <div class="col-lg-5" data-aos="fade-right">
-
-                    <span class="section-subtitle">Kontak</span>
-
-                    <h2 class="section-title" style="margin-bottom: 20px;">
-                        Hubungi Kami
-                    </h2>
-
-                    <p style="color: var(--text); line-height: 1.9; margin-bottom: 36px;">
-                        Silakan hubungi kami untuk konsultasi, kerja sama, atau
-                        penawaran proyek. Kami siap merespons dengan cepat.
-                    </p>
-
-                    <!-- Info Items -->
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
                     <div class="kontak-info-list">
-
                         <div class="kontak-info-item">
                             <div class="kontak-info-icon">
                                 <i class="bi bi-whatsapp"></i>
                             </div>
                             <div>
                                 <h6>WhatsApp</h6>
-                                <a href="https://wa.me/6288210498508" target="_blank">088210498508</a>
+                                <a href="https://wa.me/6288210498508" target="_blank">+62 882-1049-8508</a>
                             </div>
                         </div>
-
                         <div class="kontak-info-item">
                             <div class="kontak-info-icon">
                                 <i class="bi bi-clock"></i>
                             </div>
                             <div>
                                 <h6>Jam Respons</h6>
-                                <p>Senin - Sabtu, 08.00 - 21.00 WIB</p>
+                                <p>Senin - Sabtu, 08:00 - 21:00 WIB<br>Respons maksimal 1x24 jam</p>
                             </div>
                         </div>
-
                         <div class="kontak-info-item">
                             <div class="kontak-info-icon">
-                                <i class="bi bi-patch-check"></i>
+                                <i class="bi bi-chat-heart"></i>
                             </div>
                             <div>
                                 <h6>Konsultasi Gratis</h6>
-                                <p>Diskusikan kebutuhan Anda tanpa biaya apapun</p>
+                                <p>Ceritakan kebutuhan Anda tanpa biaya. Kami bantu carikan solusi terbaik.</p>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
-
-                <!-- Right: Form -->
-                <div class="col-lg-7" data-aos="fade-left">
-
-                    <div class="contact-form-card">
-
-                        <form id="contactForm" novalidate>
-
-                            <div class="cf-row">
-
-                                <div class="cf-group">
-                                    <label for="cfNama">Nama Lengkap</label>
-                                    <div class="cf-input-wrap">
-                                        <i class="bi bi-person"></i>
-                                        <input type="text" id="cfNama" placeholder="Nama Anda" required>
-                                    </div>
+                <!-- Right: Contact Form -->
+                <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+                    <div class="contact-card">
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="contactName" class="form-label-custom">Nama Lengkap *</label>
+                                    <input type="text" class="form-control form-control-custom" id="contactName"
+                                        placeholder="Nama Anda" required>
                                 </div>
-
-                                <div class="cf-group">
-                                    <label for="cfWa">Nomor WhatsApp</label>
-                                    <div class="cf-input-wrap">
-                                        <i class="bi bi-whatsapp"></i>
-                                        <input type="tel" id="cfWa" placeholder="08xxxxxxxxxx" required>
-                                    </div>
+                                <div class="col-md-6">
+                                    <label for="contactBusiness" class="form-label-custom">Nama Usaha <small
+                                            class="text-muted">(opsional)</small></label>
+                                    <input type="text" class="form-control form-control-custom" id="contactBusiness"
+                                        placeholder="Nama usaha/brand">
                                 </div>
-
-                            </div>
-
-                            <div class="cf-group">
-                                <label for="cfLayanan">Jenis Layanan</label>
-                                <div class="cf-input-wrap">
-                                    <i class="bi bi-grid"></i>
-                                    <select id="cfLayanan" required>
-                                        <option value="" disabled selected>Pilih layanan yang dibutuhkan</option>
-                                        <option value="Pembuatan Website">Pembuatan Website</option>
-                                        <option value="Company Profile">Company Profile</option>
+                                <div class="col-md-6">
+                                    <label for="contactWhatsapp" class="form-label-custom">No. WhatsApp *</label>
+                                    <input type="tel" class="form-control form-control-custom" id="contactWhatsapp"
+                                        placeholder="08xxxxxxxxxx" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="contactNeed" class="form-label-custom">Kebutuhan Proyek *</label>
+                                    <select class="form-select form-control-custom" id="contactNeed" required>
+                                        <option value="" disabled selected>Pilih kebutuhan...</option>
                                         <option value="Landing Page">Landing Page</option>
-                                        <option value="Pendampingan Skripsi">Pendampingan Skripsi</option>
+                                        <option value="Company Profile">Company Profile</option>
+                                        <option value="Toko Online">Toko Online</option>
                                         <option value="Sistem Informasi">Sistem Informasi</option>
+                                        <option value="Sistem Kasir/POS">Sistem Kasir / POS</option>
+                                        <option value="Pendampingan Skripsi">Pendampingan Skripsi</option>
                                         <option value="Lainnya">Lainnya</option>
                                     </select>
                                 </div>
-                            </div>
-
-                            <div class="cf-group">
-                                <label for="cfPesan">Pesan / Deskripsi Kebutuhan</label>
-                                <div class="cf-input-wrap cf-textarea-wrap">
-                                    <i class="bi bi-chat-text"></i>
-                                    <textarea id="cfPesan" rows="4"
-                                        placeholder="Ceritakan kebutuhan Anda secara singkat..." required></textarea>
+                                <div class="col-12">
+                                    <label for="contactMessage" class="form-label-custom">Pesan / Detail
+                                        Kebutuhan</label>
+                                    <textarea class="form-control form-control-custom" id="contactMessage" rows="4"
+                                        placeholder="Ceritakan sedikit tentang proyek yang Anda butuhkan..."></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-custom-primary w-100" style="padding:16px;">
+                                        <i class="bi bi-whatsapp me-2"></i> Kirim via WhatsApp
+                                    </button>
                                 </div>
                             </div>
-
-                            <button type="submit" class="cf-submit" id="cfSubmit">
-                                <i class="bi bi-whatsapp"></i>
-                                Kirim via WhatsApp
-                            </button>
-
                         </form>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
-
     </section>
 
-
-    <!-- Footer -->
+    <!-- ========================= FOOTER ========================= -->
     <footer class="footer-section">
-
-        <div class="container">
-
-            <div class="footer-wrapper">
-
-                <div class="row gy-5">
-
-                    <!-- Brand -->
-                    <div class="col-12 col-lg-4">
-
-                        <div class="footer-brand">
-
-                            <h2>
-                                <span>Dev</span>WorksID
-                            </h2>
-
-                            <p>
-                                Freelance developer yang berfokus pada website, aplikasi web,
-                                sistem informasi, dan solusi digital modern.
-                            </p>
-
-                            <div class="footer-socials">
-                                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                                <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
-                            </div>
-
+        <div class="container footer-wrapper">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <h2>Dev<span>Works</span>ID</h2>
+                        <p>Turning Ideas Into Digital Solutions. Kami membantu bisnis Anda hadir secara profesional di
+                            dunia digital.</p>
+                        <div class="footer-socials">
+                            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
                         </div>
-
                     </div>
-
-                    <!-- Navigation -->
-                    <div class="col-6 col-lg-2">
-
-                        <div class="footer-links">
-
-                            <h5>Navigasi</h5>
-
-                            <a href="#home">Beranda</a>
-                            <a href="#tentang">Tentang</a>
-                            <a href="#layanan">Layanan</a>
-                            <a href="#portfolio">Portfolio</a>
-                            <a href="#harga">Harga</a>
-                            <a href="#kontak">Kontak</a>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Services -->
-                    <div class="col-6 col-lg-3">
-
-                        <div class="footer-links">
-
-                            <h5>Layanan</h5>
-
-                            <a href="#layanan">Website UMKM</a>
-                            <a href="#layanan">Company Profile</a>
-                            <a href="#layanan">Pendampingan Skripsi</a>
-                            <a href="#layanan">Sistem Informasi</a>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Contact -->
-                    <div class="col-12 col-lg-3">
-
-                        <div class="footer-links">
-
-                            <h5>Kontak</h5>
-
-                        </div>
-
-                        <div class="footer-contact">
-                            <span><i class="bi bi-whatsapp"></i> 088210498508</span>
-                            <span><i class="bi bi-envelope"></i> sultanhasibuan.work@gmail.com</span>
-                        </div>
-
-                    </div>
-
                 </div>
-
-                <!-- Bottom -->
-                <div class="footer-bottom">
-
-                    <div class="footer-copyright">
-                        <p>&copy; 2026 DevWorksID. All Rights Reserved.</p>
-                        <span class="footer-developer">Building Modern Digital Solutions</span>
+                <div class="col-6 col-lg-2">
+                    <div class="footer-links">
+                        <h5>Navigasi</h5>
+                        <a href="#beranda">Beranda</a>
+                        <a href="#tentang">Tentang</a>
+                        <a href="#solusi">Layanan</a>
+                        <a href="#portfolio">Portfolio</a>
+                        <a href="#harga">Harga</a>
+                        <a href="#kontak">Kontak</a>
                     </div>
-
                 </div>
-
+                <div class="col-6 col-lg-3">
+                    <div class="footer-links">
+                        <h5>Layanan</h5>
+                        <a href="#solusi">Website Company Profile</a>
+                        <a href="#solusi">Toko Online & UMKM</a>
+                        <a href="#solusi">Sistem Informasi & Kasir</a>
+                        <a href="#solusi">Pendampingan Skripsi</a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-links">
+                        <h5>Kontak</h5>
+                    </div>
+                    <div class="footer-contact">
+                        <span><i class="bi bi-whatsapp"></i> +62 882-1049-8508</span>
+                        <span><i class="bi bi-clock"></i> Senin - Sabtu, 08:00 - 21:00</span>
+                        <span><i class="bi bi-geo-alt"></i> Indonesia</span>
+                    </div>
+                </div>
             </div>
-
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2026 DevWorksID. All rights reserved.</p>
+                    <span>Turning Ideas Into Digital Solutions</span>
+                </div>
+            </div>
         </div>
-
     </footer>
 
-
-    <!-- ===================== CONTACT FORM STYLES ===================== -->
+    <!-- ========================= INLINE STYLES FOR CONTACT FORM ========================= -->
     <style>
-        .section-desc {
-            color: var(--text);
-            font-size: 1rem;
-            margin-top: 12px;
+        .form-label-custom {
+            font-weight: 600;
+            font-size: 0.9rem;
+            color: #0f172a;
+            margin-bottom: 8px;
+            display: block;
         }
 
-        .contact-form-card {
-            background: white;
-            border-radius: 28px;
-            padding: 48px 44px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.07);
-            border: 1px solid rgba(0, 0, 0, 0.06);
-        }
-
-        .cf-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-        }
-
-        .cf-group {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            margin-bottom: 20px;
-        }
-
-        .cf-group label {
-            font-size: 0.85rem;
-            font-weight: 700;
-            color: #374151;
-            letter-spacing: 0.02em;
-        }
-
-        .cf-input-wrap {
-            position: relative;
-            display: flex;
-            align-items: center;
-        }
-
-        .cf-input-wrap>i {
-            position: absolute;
-            left: 16px;
-            color: #9ca3af;
-            font-size: 1rem;
-            pointer-events: none;
-            transition: color 0.2s;
-        }
-
-        .cf-input-wrap input,
-        .cf-input-wrap select,
-        .cf-input-wrap textarea {
-            width: 100%;
-            padding: 13px 16px 13px 44px;
-            border: 1.5px solid #e5e7eb;
-            border-radius: 14px;
-            font-family: inherit;
+        .form-control-custom {
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 14px 18px;
             font-size: 0.95rem;
-            color: #111827;
-            background: #f9fafb;
-            transition: all 0.2s;
-            outline: none;
-            -webkit-appearance: none;
-            appearance: none;
+            transition: 0.3s;
+            background: #f8fafc;
         }
 
-        .cf-input-wrap input:focus,
-        .cf-input-wrap select:focus,
-        .cf-input-wrap textarea:focus {
-            border-color: var(--primary);
-            background: white;
-            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.08);
+        .form-control-custom:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+            background: #ffffff;
         }
 
-        .cf-input-wrap:focus-within>i {
-            color: var(--primary);
+        .form-control-custom::placeholder {
+            color: #94a3b8;
         }
 
-        .cf-textarea-wrap {
-            align-items: flex-start;
+        /* Problem & Trust Cards */
+        .problem-card,
+        .trust-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 32px 28px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+            border: 1px solid #f1f5f9;
+            height: 100%;
+            transition: 0.3s;
         }
 
-        .cf-textarea-wrap>i {
-            top: 14px;
+        .problem-card:hover,
+        .trust-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+            border-color: #e2e8f0;
         }
 
-        .cf-input-wrap textarea {
-            resize: vertical;
-            min-height: 110px;
-        }
-
-        .cf-input-wrap select {
-            cursor: pointer;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2.5'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-            background-repeat: no-repeat;
-            background-position: right 16px center;
-            padding-right: 40px;
-        }
-
-        .cf-submit {
-            width: 100%;
-            padding: 16px 24px;
-            border: none;
-            border-radius: 14px;
-            background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
-            color: white;
-            font-family: inherit;
-            font-size: 1rem;
+        .problem-card h5,
+        .trust-card h5 {
             font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            color: #0f172a;
+        }
+
+        .problem-card p,
+        .trust-card p {
+            color: #64748b;
+            line-height: 1.8;
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        .problem-icon,
+        .trust-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            background: rgba(37, 99, 235, 0.1);
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 10px;
-            cursor: pointer;
-            transition: all 0.25s;
-            box-shadow: 0 8px 24px rgba(37, 211, 102, 0.35);
-            margin-top: 8px;
+            margin-bottom: 20px;
         }
 
-        .cf-submit i {
-            font-size: 1.2rem;
+        .problem-icon i,
+        .trust-icon i {
+            font-size: 1.5rem;
+            color: #2563eb;
         }
 
-        .cf-submit:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 14px 32px rgba(37, 211, 102, 0.45);
+        /* Testimonial Cards */
+        .testimonial-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 32px 28px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+            border: 1px solid #f1f5f9;
+            height: 100%;
+            transition: 0.3s;
         }
 
-        .cf-submit:active {
-            transform: translateY(0);
+        .testimonial-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
         }
 
-        .cf-input-wrap.cf-error input,
-        .cf-input-wrap.cf-error select,
-        .cf-input-wrap.cf-error textarea {
-            border-color: #ef4444;
-            background: #fef2f2;
+        .testimonial-stars {
+            margin-bottom: 16px;
         }
 
-        .cf-error-msg {
-            color: #ef4444;
-            font-size: 0.78rem;
-            font-weight: 600;
-            margin-top: -4px;
+        .testimonial-stars i {
+            color: #f59e0b;
+            font-size: 1.1rem;
         }
 
-        @media (max-width: 576px) {
-            .contact-form-card {
-                padding: 28px 20px;
-                border-radius: 20px;
-            }
+        .testimonial-card p {
+            color: #475569;
+            line-height: 1.8;
+            font-size: 0.95rem;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
 
-            .cf-row {
-                grid-template-columns: 1fr;
-                gap: 0;
-            }
+        .testimonial-author {
+            border-top: 1px solid #f1f5f9;
+            padding-top: 16px;
+        }
+
+        .testimonial-author strong {
+            display: block;
+            font-weight: 700;
+            color: #0f172a;
+            font-size: 0.95rem;
+        }
+
+        .testimonial-author span {
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+
+        /* FAQ Accordion */
+        .faq-section .accordion-item {
+            border: 1px solid #e2e8f0;
+            border-radius: 16px !important;
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+
+        .faq-section .accordion-button {
+            font-weight: 700;
+            font-size: 1rem;
+            color: #0f172a;
+            padding: 20px 24px;
+            background: #ffffff;
+        }
+
+        .faq-section .accordion-button:not(.collapsed) {
+            background: #f8fafc;
+            color: #2563eb;
+            box-shadow: none;
+        }
+
+        .faq-section .accordion-button:focus {
+            box-shadow: none;
+            border-color: #e2e8f0;
+        }
+
+        .faq-section .accordion-body {
+            color: #64748b;
+            line-height: 1.8;
+            padding: 0 24px 20px;
         }
     </style>
 
-    <!-- ===================== CONTACT FORM JS ===================== -->
+    <!-- ========================= CONTACT FORM JS ========================= -->
     <script>
-        (function () {
-            const form = document.getElementById('contactForm');
-            const btnSubmit = document.getElementById('cfSubmit');
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
+            e.preventDefault();
 
-            if (!form) return;
+            const name = document.getElementById('contactName').value.trim();
+            const business = document.getElementById('contactBusiness').value.trim();
+            const whatsapp = document.getElementById('contactWhatsapp').value.trim();
+            const need = document.getElementById('contactNeed').value;
+            const message = document.getElementById('contactMessage').value.trim();
 
-            function validateField(wrap, input) {
-                wrap.classList.remove('cf-error');
-                const prev = wrap.parentElement.querySelector('.cf-error-msg');
-                if (prev) prev.remove();
-
-                if (!input.value.trim()) {
-                    wrap.classList.add('cf-error');
-                    const msg = document.createElement('span');
-                    msg.className = 'cf-error-msg';
-                    msg.textContent = 'Field ini wajib diisi.';
-                    wrap.parentElement.appendChild(msg);
-                    return false;
-                }
-                return true;
+            // Validation
+            if (!name || !whatsapp || !need) {
+                alert('Mohon lengkapi field yang wajib diisi (*)');
+                return;
             }
 
-            form.addEventListener('submit', function (e) {
-                e.preventDefault();
+            // Build WhatsApp message
+            let waMessage = `Halo DevWorksID! 👋\n\n`;
+            waMessage += `*Nama:* ${name}\n`;
+            if (business) waMessage += `*Usaha:* ${business}\n`;
+            waMessage += `*WhatsApp:* ${whatsapp}\n`;
+            waMessage += `*Kebutuhan:* ${need}\n`;
+            if (message) waMessage += `*Pesan:* ${message}\n`;
+            waMessage += `\nTerima kasih!`;
 
-                const namaWrap = document.getElementById('cfNama').parentElement;
-                const waWrap = document.getElementById('cfWa').parentElement;
-                const layananWrap = document.getElementById('cfLayanan').parentElement;
-                const pesanWrap = document.getElementById('cfPesan').parentElement;
-
-                const nama = document.getElementById('cfNama');
-                const wa = document.getElementById('cfWa');
-                const layanan = document.getElementById('cfLayanan');
-                const pesan = document.getElementById('cfPesan');
-
-                const v1 = validateField(namaWrap, nama);
-                const v2 = validateField(waWrap, wa);
-                const v3 = validateField(layananWrap, layanan);
-                const v4 = validateField(pesanWrap, pesan);
-
-                if (!v1 || !v2 || !v3 || !v4) return;
-
-                const msg = [
-                    `Halo DevWorksID!`,
-                    ``,
-                    `Nama    : ${nama.value.trim()}`,
-                    `No. WA  : ${wa.value.trim()}`,
-                    `Layanan : ${layanan.value}`,
-                    ``,
-                    `Pesan:`,
-                    pesan.value.trim()
-                ].join('\n');
-
-                const encoded = encodeURIComponent(msg);
-                const waUrl = `https://wa.me/6288210498508?text=${encoded}`;
-
-                btnSubmit.innerHTML = '<i class="bi bi-hourglass-split"></i> Membuka WhatsApp...';
-                btnSubmit.disabled = true;
-
-                setTimeout(() => {
-                    window.open(waUrl, '_blank');
-                    btnSubmit.innerHTML = '<i class="bi bi-whatsapp"></i> Kirim via WhatsApp';
-                    btnSubmit.disabled = false;
-                    form.reset();
-                }, 600);
-            });
-
-            ['cfNama', 'cfWa', 'cfLayanan', 'cfPesan'].forEach(id => {
-                const el = document.getElementById(id);
-                if (!el) return;
-                el.addEventListener('input', function () {
-                    this.parentElement.classList.remove('cf-error');
-                    const msg = this.parentElement.parentElement.querySelector('.cf-error-msg');
-                    if (msg) msg.remove();
-                });
-            });
-        })();
+            const encoded = encodeURIComponent(waMessage);
+            window.open(`https://wa.me/6288210498508?text=${encoded}`, '_blank');
+        });
     </script>
 
-
-    <!-- Floating WhatsApp -->
-    <a href="https://wa.me/6288210498508?text=Halo%20DevWorksID%2C%20saya%20tertarik%20dengan%20layanan%20pembuatan%20website.%20Bisa%20konsultasi%20gratis%3F"
+    <!-- ========================= FLOATING WHATSAPP ========================= -->
+    <a href="https://wa.me/6288210498508?text=Halo%20DevWorksID%2C%20saya%20ingin%20bertanya%20tentang%20layanan%20Anda"
         class="floating-whatsapp" target="_blank" aria-label="Chat WhatsApp">
         <i class="bi bi-whatsapp"></i>
     </a>
 
-    <!-- Scroll to Top -->
+    <!-- ========================= SCROLL TO TOP ========================= -->
     <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
-        <i class="bi bi-rocket-takeoff-fill"></i>
+        <i class="bi bi-chevron-up"></i>
     </button>
 
-    <!-- Mobile Bottom Pill Nav -->
-    <nav class="mobile-pill-nav" id="mobilePillNav">
-
-        <a href="#home" class="pill-nav-item" data-section="home">
-            <i class="bi bi-house-fill"></i>
+    <!-- ========================= MOBILE PILL NAV ========================= -->
+    <nav class="mobile-pill-nav" id="pillNav">
+        <a href="#beranda" class="pill-nav-item active" data-section="beranda">
+            <i class="bi bi-house-door"></i>
             <span>Beranda</span>
         </a>
-
         <a href="#tentang" class="pill-nav-item" data-section="tentang">
-            <i class="bi bi-person-fill"></i>
+            <i class="bi bi-person-check"></i>
             <span>Tentang</span>
         </a>
-
-        <a href="#layanan" class="pill-nav-item" data-section="layanan">
-            <i class="bi bi-grid-fill"></i>
+        <a href="#solusi" class="pill-nav-item" data-section="solusi">
+            <i class="bi bi-grid"></i>
             <span>Layanan</span>
         </a>
-
         <a href="#portfolio" class="pill-nav-item" data-section="portfolio">
-            <i class="bi bi-briefcase-fill"></i>
+            <i class="bi bi-collection"></i>
             <span>Portfolio</span>
         </a>
-
         <a href="#kontak" class="pill-nav-item" data-section="kontak">
-            <i class="bi bi-chat-dots-fill"></i>
+            <i class="bi bi-envelope"></i>
             <span>Kontak</span>
         </a>
-
     </nav>
 
-    <!-- Bootstrap JS -->
+    <!-- ========================= BOOTSTRAP JS ========================= -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Pill Nav Active State -->
+    <!-- ========================= PILL NAV ACTIVE STATE JS ========================= -->
     <script>
         (function () {
             const pillItems = document.querySelectorAll('.pill-nav-item');
             const sections = document.querySelectorAll('section[id]');
 
             function setActive() {
-                let currentId = '';
-                const scrollY = window.scrollY + window.innerHeight * 0.4;
+                let current = '';
+                const scrollY = window.scrollY + window.innerHeight / 3;
 
-                sections.forEach(sec => {
-                    if (scrollY >= sec.offsetTop) {
-                        currentId = sec.getAttribute('id');
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+                    if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                        current = section.getAttribute('id');
                     }
                 });
 
+                // Default to beranda if at top
+                if (window.scrollY < 200) current = 'beranda';
+
                 pillItems.forEach(item => {
-                    item.classList.toggle('active', item.getAttribute('data-section') === currentId);
+                    item.classList.remove('active');
+                    if (item.getAttribute('data-section') === current) {
+                        item.classList.add('active');
+                    }
                 });
             }
 
-            window.addEventListener('scroll', setActive, { passive: true });
+            window.addEventListener('scroll', setActive);
             setActive();
         })();
     </script>
 
-    <!-- ===================== PORTFOLIO LIGHTBOX ===================== -->
-    <div class="lb-overlay" id="portfolioLightbox" role="dialog" aria-modal="true" aria-label="Portfolio Gallery">
-        <button class="lb-close" id="lbClose" aria-label="Tutup"><i class="bi bi-x-lg"></i></button>
-        <div class="lb-counter" id="lbCounter">1 / 3</div>
-        <div class="lb-img-wrapper">
-            <img class="lb-img" id="lbImg" src="" alt="Portfolio Image">
-            <div class="lb-spinner" id="lbSpinner">
-                <div class="lb-spin-ring"></div>
-            </div>
+    <!-- ========================= LIGHTBOX HTML + CSS + JS ========================= -->
+    <div class="lightbox-overlay" id="lightboxOverlay">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">&times;</button>
+        <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#10094;</button>
+        <button class="lightbox-next" id="lightboxNext" aria-label="Next image">&#10095;</button>
+        <div class="lightbox-content">
+            <img src="" alt="Portfolio Preview" id="lightboxImage">
         </div>
-        <button class="lb-nav lb-prev" id="lbPrev" aria-label="Sebelumnya"><i class="bi bi-chevron-left"></i></button>
-        <button class="lb-nav lb-next" id="lbNext" aria-label="Berikutnya"><i class="bi bi-chevron-right"></i></button>
-        <div class="lb-info">
-            <span class="lb-category" id="lbCategory"></span>
-            <h3 class="lb-title" id="lbTitle"></h3>
-            <p class="lb-desc" id="lbDesc"></p>
-            <div class="lb-dots" id="lbDots"></div>
-        </div>
+        <div class="lightbox-counter" id="lightboxCounter"></div>
     </div>
 
     <style>
-        .portfolio-card {
-            position: relative;
-            overflow: hidden;
-            cursor: pointer;
-        }
-
-        .portfolio-overlay-icon {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) scale(0.6);
-            background: rgba(255, 255, 255, 0.15);
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-            border: 1.5px solid rgba(255, 255, 255, 0.35);
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 1.5rem;
-            opacity: 0;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            z-index: 3;
-            pointer-events: none;
-        }
-
-        .portfolio-card:hover .portfolio-overlay-icon {
-            opacity: 1;
-            transform: translate(-50%, -50%) scale(1);
-        }
-
-        .lb-overlay {
+        .lightbox-overlay {
             position: fixed;
-            inset: 0;
-            background: rgba(2, 6, 23, 0.97);
-            z-index: 9999;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.3s ease;
-            flex-direction: column;
-        }
-
-        .lb-overlay.lb-open {
-            opacity: 1;
-            pointer-events: all;
-        }
-
-        .lb-close {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.15);
-            color: white;
-            font-size: 1.1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: 0.2s;
-            z-index: 10;
-        }
-
-        .lb-close:hover {
-            background: rgba(255, 255, 255, 0.2);
-            transform: rotate(90deg);
-        }
-
-        .lb-counter {
-            position: absolute;
-            top: 22px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: rgba(255, 255, 255, 0.55);
-            font-size: 0.82rem;
-            font-weight: 600;
-            letter-spacing: 0.08em;
-            z-index: 10;
-        }
-
-        .lb-img-wrapper {
-            position: relative;
+            top: 0;
+            left: 0;
             width: 100%;
-            max-width: 860px;
-            max-height: 55vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0 70px;
-        }
-
-        .lb-img {
-            max-width: 100%;
-            max-height: 55vh;
-            border-radius: 16px;
-            object-fit: contain;
-            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
-            transition: opacity 0.25s ease;
-        }
-
-        .lb-img.lb-fading {
-            opacity: 0;
-        }
-
-        .lb-spinner {
-            position: absolute;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.92);
+            z-index: 9999;
             display: none;
             align-items: center;
             justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s;
         }
 
-        .lb-spinner.lb-loading {
+        .lightbox-overlay.active {
             display: flex;
-        }
-
-        .lb-spin-ring {
-            width: 40px;
-            height: 40px;
-            border: 3px solid rgba(255, 255, 255, 0.15);
-            border-top-color: white;
-            border-radius: 50%;
-            animation: lb-spin 0.7s linear infinite;
-        }
-
-        @keyframes lb-spin {
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        .lb-nav {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 52px;
-            height: 52px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.08);
-            border: 1px solid rgba(255, 255, 255, 0.12);
-            color: white;
-            font-size: 1.3rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            transition: 0.2s;
-            z-index: 10;
-        }
-
-        .lb-nav:hover {
-            background: rgba(255, 255, 255, 0.18);
-        }
-
-        .lb-prev {
-            left: 16px;
-        }
-
-        .lb-next {
-            right: 16px;
-        }
-
-        .lb-nav:disabled {
-            opacity: 0.25;
-            cursor: default;
-        }
-
-        .lb-info {
-            text-align: center;
-            padding: 24px 24px 0;
-            max-width: 700px;
-        }
-
-        .lb-category {
-            display: inline-block;
-            background: rgba(37, 99, 235, 0.25);
-            color: #93c5fd;
-            font-size: 0.75rem;
-            font-weight: 700;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            padding: 4px 14px;
-            border-radius: 999px;
-            margin-bottom: 10px;
-        }
-
-        .lb-title {
-            color: white;
-            font-size: 1.25rem;
-            font-weight: 700;
-            margin-bottom: 6px;
-        }
-
-        .lb-desc {
-            color: rgba(255, 255, 255, 0.5);
-            font-size: 0.9rem;
-            margin-bottom: 18px;
-        }
-
-        .lb-dots {
-            display: flex;
-            gap: 8px;
-            justify-content: center;
-        }
-
-        .lb-dot {
-            width: 32px;
-            height: 32px;
-            border-radius: 8px;
-            overflow: hidden;
-            border: 2px solid transparent;
-            cursor: pointer;
-            transition: 0.2s;
-            opacity: 0.5;
-        }
-
-        .lb-dot img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .lb-dot.lb-dot-active {
-            border-color: var(--primary);
             opacity: 1;
         }
 
-        @media (max-width: 600px) {
-            .lb-img-wrapper {
-                padding: 0 50px;
-                max-height: 45vh;
-            }
+        .lightbox-content {
+            max-width: 90%;
+            max-height: 85vh;
+        }
 
-            .lb-img {
-                max-height: 45vh;
-            }
+        .lightbox-content img {
+            max-width: 100%;
+            max-height: 85vh;
+            border-radius: 12px;
+            object-fit: contain;
+        }
 
-            .lb-nav {
-                width: 40px;
-                height: 40px;
-                font-size: 1rem;
-            }
+        .lightbox-close {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 2.5rem;
+            color: white;
+            background: none;
+            border: none;
+            cursor: pointer;
+            z-index: 10000;
+            line-height: 1;
+        }
 
-            .lb-prev {
-                left: 6px;
-            }
+        .lightbox-prev,
+        .lightbox-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2rem;
+            color: white;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            cursor: pointer;
+            padding: 15px 20px;
+            border-radius: 50%;
+            transition: 0.3s;
+        }
 
-            .lb-next {
-                right: 6px;
-            }
+        .lightbox-prev:hover,
+        .lightbox-next:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
 
-            .lb-title {
-                font-size: 1rem;
-            }
+        .lightbox-prev {
+            left: 20px;
+        }
 
-            .lb-info {
-                padding: 16px 16px 0;
-            }
+        .lightbox-next {
+            right: 20px;
+        }
+
+        .lightbox-counter {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.9rem;
         }
     </style>
 
     <script>
         (function () {
-            const overlay = document.getElementById('portfolioLightbox');
-            const lbImg = document.getElementById('lbImg');
-            const lbSpinner = document.getElementById('lbSpinner');
-            const lbCounter = document.getElementById('lbCounter');
-            const lbTitle = document.getElementById('lbTitle');
-            const lbDesc = document.getElementById('lbDesc');
-            const lbCat = document.getElementById('lbCategory');
-            const lbDots = document.getElementById('lbDots');
-            const lbPrev = document.getElementById('lbPrev');
-            const lbNext = document.getElementById('lbNext');
-            const lbClose = document.getElementById('lbClose');
+            const overlay = document.getElementById('lightboxOverlay');
+            const img = document.getElementById('lightboxImage');
+            const counter = document.getElementById('lightboxCounter');
+            const closeBtn = document.getElementById('lightboxClose');
+            const prevBtn = document.getElementById('lightboxPrev');
+            const nextBtn = document.getElementById('lightboxNext');
 
-            let images = [], current = 0;
+            let images = [];
+            let currentIndex = 0;
 
-            function openLightbox(card) {
-                images = JSON.parse(card.dataset.images);
-                current = 0;
-                lbTitle.textContent = card.dataset.title || '';
-                lbDesc.textContent = card.dataset.desc || '';
-                lbCat.textContent = card.dataset.category || '';
-                buildDots();
-                showImage(0);
-                overlay.classList.add('lb-open');
+            function openLightbox(imageArray, index) {
+                images = imageArray;
+                currentIndex = index || 0;
+                showImage();
+                overlay.classList.add('active');
                 document.body.style.overflow = 'hidden';
             }
 
             function closeLightbox() {
-                overlay.classList.remove('lb-open');
+                overlay.classList.remove('active');
                 document.body.style.overflow = '';
             }
 
-            function showImage(idx) {
-                current = (idx + images.length) % images.length;
-                lbImg.classList.add('lb-fading');
-                lbSpinner.classList.add('lb-loading');
-                const tempImg = new Image();
-                tempImg.onload = function () {
-                    lbImg.src = images[current];
-                    lbImg.classList.remove('lb-fading');
-                    lbSpinner.classList.remove('lb-loading');
-                };
-                tempImg.src = images[current];
-                lbCounter.textContent = `${current + 1} / ${images.length}`;
-                document.querySelectorAll('.lb-dot').forEach((d, i) => {
-                    d.classList.toggle('lb-dot-active', i === current);
-                });
+            function showImage() {
+                img.src = images[currentIndex];
+                counter.textContent = `${currentIndex + 1} / ${images.length}`;
             }
 
-            function buildDots() {
-                lbDots.innerHTML = '';
-                images.forEach((src, i) => {
-                    const dot = document.createElement('div');
-                    dot.className = 'lb-dot' + (i === 0 ? ' lb-dot-active' : '');
-                    dot.innerHTML = `<img src="${src}" alt="">`;
-                    dot.addEventListener('click', () => showImage(i));
-                    lbDots.appendChild(dot);
-                });
+            function nextImage() {
+                currentIndex = (currentIndex + 1) % images.length;
+                showImage();
             }
 
-            document.querySelectorAll('.lightbox-trigger').forEach(card => {
-                card.addEventListener('click', () => openLightbox(card));
+            function prevImage() {
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                showImage();
+            }
+
+            closeBtn.addEventListener('click', closeLightbox);
+            nextBtn.addEventListener('click', nextImage);
+            prevBtn.addEventListener('click', prevImage);
+
+            overlay.addEventListener('click', function (e) {
+                if (e.target === overlay) closeLightbox();
             });
 
-            lbPrev.addEventListener('click', (e) => { e.stopPropagation(); showImage(current - 1); });
-            lbNext.addEventListener('click', (e) => { e.stopPropagation(); showImage(current + 1); });
-            lbClose.addEventListener('click', closeLightbox);
-            overlay.addEventListener('click', (e) => { if (e.target === overlay) closeLightbox(); });
-
-            document.addEventListener('keydown', (e) => {
-                if (!overlay.classList.contains('lb-open')) return;
+            document.addEventListener('keydown', function (e) {
+                if (!overlay.classList.contains('active')) return;
                 if (e.key === 'Escape') closeLightbox();
-                if (e.key === 'ArrowLeft') showImage(current - 1);
-                if (e.key === 'ArrowRight') showImage(current + 1);
+                if (e.key === 'ArrowRight') nextImage();
+                if (e.key === 'ArrowLeft') prevImage();
             });
 
-            let touchStartX = 0;
-            overlay.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; }, { passive: true });
-            overlay.addEventListener('touchend', (e) => {
-                const diff = touchStartX - e.changedTouches[0].clientX;
-                if (Math.abs(diff) > 50) showImage(diff > 0 ? current + 1 : current - 1);
+            // Attach to portfolio cards
+            document.querySelectorAll('.lightbox-trigger').forEach(card => {
+                card.style.cursor = 'pointer';
+                card.addEventListener('click', function () {
+                    const dataImages = this.getAttribute('data-images');
+                    if (dataImages) {
+                        const imageArray = JSON.parse(dataImages);
+                        openLightbox(imageArray, 0);
+                    }
+                });
             });
         })();
     </script>
 
-    <!-- ===================== LICENSE MODAL ===================== -->
+    <!-- ========================= LICENSE MODAL ========================= -->
     <div class="modal fade" id="licenseModal" tabindex="-1" aria-labelledby="licenseModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content"
-                style="border-radius: 20px; border: none; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.1);">
-                <div class="modal-header"
-                    style="background: rgba(37, 99, 235, 0.05); border-bottom: 1px solid rgba(37, 99, 235, 0.1); padding: 20px 24px;">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius:24px;border:none;overflow:hidden;">
+                <div class="modal-header" style="background:#0f172a;border:none;padding:30px 30px 20px;">
                     <h5 class="modal-title" id="licenseModalLabel"
-                        style="font-weight: 700; color: var(--dark); font-size: 1.15rem;">
-                        <i class="bi bi-shield-check text-primary me-2"></i> Syarat & Ketentuan Source Code
+                        style="color:white;font-weight:800;font-size:1.3rem;">
+                        <i class="bi bi-file-earmark-text me-2" style="color:#60a5fa;"></i> Ketentuan Lisensi DevWorksID
                     </h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
                 </div>
-                <div class="modal-body" style="padding: 24px; color: #475569; font-size: 0.95rem; line-height: 1.7;">
-                    <p>Terima kasih telah mempercayakan pembuatan website Anda kepada <strong>DevWorksID</strong>.</p>
-                    <p>Perlu diketahui bahwa <strong>seluruh source code</strong>, desain, dan aset website yang kami
-                        serahkan ditujukan secara eksklusif untuk <strong>penggunaan internal operasional bisnis
-                            Anda</strong>.</p>
-                    <div
-                        style="background: #fef2f2; border-left: 4px solid #ef4444; padding: 12px 16px; margin: 20px 0; border-radius: 4px 8px 8px 4px; color: #b91c1c;">
-                        <strong>Peringatan Hak Cipta:</strong><br>
-                        Anda <u>tidak diizinkan</u> untuk mendistribusikan ulang, menggandakan, atau memperjualbelikan
-                        kembali (resale) source code ini kepada pihak ketiga dalam bentuk apa pun tanpa izin tertulis
-                        dari DevWorksID.
+                <div class="modal-body" style="padding:30px;max-height:60vh;overflow-y:auto;">
+                    <div style="color:#475569;line-height:1.9;font-size:0.95rem;">
+                        <h6 style="font-weight:700;color:#0f172a;margin-bottom:12px;">1. Kepemilikan Source Code</h6>
+                        <p>Setelah proyek selesai dan pembayaran lunas, seluruh source code menjadi milik klien
+                            sepenuhnya. Klien berhak memodifikasi, mengembangkan, atau memindahkan proyek ke developer
+                            lain.</p>
+
+                        <h6 style="font-weight:700;color:#0f172a;margin-bottom:12px;margin-top:24px;">2. Hak Penggunaan
+                        </h6>
+                        <p>Klien mendapat hak penuh untuk menggunakan hasil proyek untuk keperluan komersial maupun
+                            non-komersial tanpa batasan waktu.</p>
+
+                        <h6 style="font-weight:700;color:#0f172a;margin-bottom:12px;margin-top:24px;">3. Garansi &
+                            Dukungan</h6>
+                        <p>DevWorksID memberikan garansi bug fix selama 30 hari setelah proyek diserahkan. Dukungan
+                            teknis di luar masa garansi tersedia dengan biaya terpisah yang disepakati bersama.</p>
+
+                        <h6 style="font-weight:700;color:#0f172a;margin-bottom:12px;margin-top:24px;">4. Kerahasiaan
+                        </h6>
+                        <p>DevWorksID menjaga kerahasiaan data dan informasi bisnis klien. Kami tidak akan membagikan
+                            informasi proyek kepada pihak ketiga tanpa izin tertulis.</p>
+
+                        <h6 style="font-weight:700;color:#0f172a;margin-bottom:12px;margin-top:24px;">5. Portfolio</h6>
+                        <p>DevWorksID berhak menampilkan hasil proyek (screenshot/deskripsi umum) sebagai portfolio,
+                            kecuali klien meminta sebaliknya secara tertulis.</p>
+
+                        <h6 style="font-weight:700;color:#0f172a;margin-bottom:12px;margin-top:24px;">6. Pembatalan</h6>
+                        <p>Jika klien membatalkan proyek setelah pengerjaan dimulai, biaya yang sudah dibayarkan tidak
+                            dapat dikembalikan sesuai dengan progress yang telah dikerjakan.</p>
                     </div>
-                    <p class="mb-0">Dengan menggunakan jasa kami, Anda dianggap menyetujui persyaratan kepemilikan dan
-                        lisensi ini.</p>
                 </div>
-                <div class="modal-footer" style="border-top: 1px solid #f1f5f9; padding: 16px 24px;">
-                    <button type="button" class="btn btn-primary w-100" data-bs-dismiss="modal"
-                        style="border-radius: 12px; font-weight: 600; padding: 10px;">Saya Mengerti</button>
+                <div class="modal-footer" style="border:none;padding:20px 30px 30px;justify-content:center;">
+                    <button type="button" class="btn btn-custom-primary" data-bs-dismiss="modal"
+                        style="padding:12px 40px;">
+                        Saya Mengerti
+                    </button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- AOS (Animate On Scroll) -->
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <!-- ========================= AOS INIT JS ========================= -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
             duration: 800,
@@ -1704,20 +1595,99 @@
         });
     </script>
 
-    <!-- Scroll to Top JS -->
+    <!-- ========================= SCROLL TO TOP JS ========================= -->
     <script>
-        (() => {
-            const btn = document.getElementById('scrollToTop');
-            window.addEventListener('scroll', () => {
-                if (window.scrollY > 400) {
-                    btn.classList.add('visible');
+        (function () {
+            const scrollBtn = document.getElementById('scrollToTop');
+
+            window.addEventListener('scroll', function () {
+                if (window.scrollY > 500) {
+                    scrollBtn.classList.add('visible');
                 } else {
-                    btn.classList.remove('visible');
+                    scrollBtn.classList.remove('visible');
                 }
             });
-            btn.addEventListener('click', () => {
+
+            scrollBtn.addEventListener('click', function () {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             });
+        })();
+    </script>
+
+    <!-- ========================= TESTIMONI CAROUSEL JS ========================= -->
+    <script>
+        (function () {
+            const carousel    = document.getElementById('testimoniCarousel');
+            const dotsWrapper = document.getElementById('testimoniDots');
+            const prevBtn     = document.getElementById('testimoniPrevBtn');
+            const nextBtn     = document.getElementById('testimoniNextBtn');
+            if (!carousel || !dotsWrapper) return;
+
+            const isMobile = () => window.innerWidth <= 768;
+            const allSlides = Array.from(carousel.querySelectorAll('.carousel-item'));
+
+            // Slides valid untuk tampilan saat ini
+            function validSlides() {
+                if (isMobile()) return allSlides;
+                return allSlides.filter(s => !s.classList.contains('mobile-only-slide'));
+            }
+
+            // Index aktif di antara semua slide
+            function activeRealIndex() {
+                return allSlides.findIndex(s => s.classList.contains('active'));
+            }
+
+            // Navigasi ke slide berdasarkan real index di allSlides
+            function goTo(realIdx) {
+                bootstrap.Carousel.getOrCreateInstance(carousel).to(realIdx);
+            }
+
+            function navigatePrev() {
+                const valid = validSlides();
+                const cur   = allSlides[activeRealIndex()];
+                const pos   = valid.indexOf(cur);
+                const prev  = valid[(pos - 1 + valid.length) % valid.length];
+                goTo(allSlides.indexOf(prev));
+            }
+
+            function navigateNext() {
+                const valid = validSlides();
+                const cur   = allSlides[activeRealIndex()];
+                const pos   = valid.indexOf(cur);
+                const next  = valid[(pos + 1) % valid.length];
+                goTo(allSlides.indexOf(next));
+            }
+
+            // Dot indicators
+            function buildDots() {
+                dotsWrapper.innerHTML = '';
+                validSlides().forEach((slide, idx) => {
+                    const dot = document.createElement('button');
+                    dot.className = 'testimoni-dot';
+                    dot.setAttribute('aria-label', 'Slide ' + (idx + 1));
+                    dot.addEventListener('click', () => goTo(allSlides.indexOf(slide)));
+                    dotsWrapper.appendChild(dot);
+                });
+                syncDots();
+            }
+
+            function syncDots() {
+                const cur   = allSlides[activeRealIndex()];
+                const valid = validSlides();
+                const pos   = valid.indexOf(cur);
+                dotsWrapper.querySelectorAll('.testimoni-dot').forEach((dot, i) => {
+                    dot.classList.toggle('active', i === pos);
+                });
+            }
+
+            // Event listeners
+            if (prevBtn) prevBtn.addEventListener('click', navigatePrev);
+            if (nextBtn) nextBtn.addEventListener('click', navigateNext);
+
+            carousel.addEventListener('slid.bs.carousel', syncDots);
+
+            buildDots();
+            window.addEventListener('resize', buildDots);
         })();
     </script>
 

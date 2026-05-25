@@ -236,27 +236,44 @@ a {
   align-items: center;
 
   /* Top clearance for floating logo badge (~80px) */
-  padding: 100px 0 100px;
+  padding: 100px 0 80px;
 
   background: #0f172a;
+}
+
+/* Section Masalah — kurangi padding-top karena wave sudah mengisi ruang atas */
+#masalah {
+  padding-top: 60px;
+}
+
+/* Section Solusi — kurangi padding-top karena wave dark sudah mengisi ruang atas */
+#solusi {
+  padding-top: 60px;
 }
 
 .hero-wave {
   width: 100%;
 
-  margin-top: -2px;
+  /* Tarik ke atas 1px agar tidak ada gap/border line antara hero & wave */
+  margin-top: -1px;
 
   line-height: 0;
+  font-size: 0;
 
+  /* Warna latar wave = warna hero (dark) agar mulus */
   background: #0f172a;
+
+  display: block;
+  overflow: hidden;
 }
 
 .hero-wave svg {
   display: block;
 
   width: 100%;
-
   height: 130px;
+
+  shape-rendering: crispEdges;
 }
 
 @media (max-width: 768px) {
@@ -268,6 +285,36 @@ a {
 @media (max-width: 480px) {
   .hero-wave svg {
     height: 55px;
+  }
+}
+
+/* Wave Masalah → Solusi */
+.masalah-wave {
+  width: 100%;
+  margin-top: -1px;
+  line-height: 0;
+  font-size: 0;
+  background: #ffffff;
+  display: block;
+  overflow: hidden;
+}
+
+.masalah-wave svg {
+  display: block;
+  width: 100%;
+  height: 100px;
+  shape-rendering: crispEdges;
+}
+
+@media (max-width: 768px) {
+  .masalah-wave svg {
+    height: 65px;
+  }
+}
+
+@media (max-width: 480px) {
+  .masalah-wave svg {
+    height: 45px;
   }
 }
 
@@ -413,6 +460,96 @@ a {
   color: #cbd5e1;
 
   font-size: 0.92rem;
+}
+
+/* =========================
+   MASALAH / PROBLEM CARDS
+========================= */
+
+.problem-card {
+  background: #ffffff;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 20px;
+
+  padding: 32px 28px;
+
+  height: 100%;
+
+  transition: 0.35s ease;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.problem-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #2563eb, #60a5fa);
+  border-radius: 4px 0 0 4px;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.problem-card:hover {
+  border-color: #bfdbfe;
+  box-shadow: 0 12px 36px rgba(37, 99, 235, 0.1);
+  transform: translateY(-6px);
+}
+
+.problem-card:hover::before {
+  opacity: 1;
+}
+
+.problem-icon {
+  width: 54px;
+  height: 54px;
+
+  border-radius: 14px;
+
+  background: linear-gradient(135deg, #dbeafe, #eff6ff);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 20px;
+
+  transition: 0.35s ease;
+}
+
+.problem-card:hover .problem-icon {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+}
+
+.problem-icon i {
+  font-size: 1.4rem;
+  color: #2563eb;
+  transition: 0.35s ease;
+}
+
+.problem-card:hover .problem-icon i {
+  color: #ffffff;
+}
+
+.problem-card h5 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.problem-card p {
+  color: #64748b;
+  font-size: 0.93rem;
+  line-height: 1.8;
+  margin: 0;
 }
 
 /* =========================
@@ -567,6 +704,11 @@ a {
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
 
   transition: 0.4s;
+
+  /* Sama tinggi dalam satu baris grid */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio-card:hover {
@@ -588,6 +730,12 @@ a {
 
 .portfolio-content {
   padding: 28px;
+
+  /* Isi sisa ruang agar card selalu sama tinggi */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .portfolio-content span {
@@ -609,6 +757,205 @@ a {
   color: var(--text);
 
   line-height: 1.8;
+}
+
+/* =========================
+   TESTIMONI CAROUSEL
+========================= */
+
+.testimoni-section {
+  background: #f8fafc;
+}
+
+.testimoni-carousel-wrapper {
+  position: relative;
+  margin-top: 48px;
+}
+
+/* Slide layout — desktop: 3 cards side by side */
+.testimoni-slide {
+  display: flex;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.testimoni-slide .testimonial-card {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Testimonial Card */
+.testimonial-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 32px 28px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f1f5f9;
+  height: 100%;
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.1);
+  border-color: #dbeafe;
+}
+
+.testimonial-stars {
+  margin-bottom: 18px;
+}
+
+.testimonial-stars i {
+  color: #f59e0b;
+  font-size: 1.05rem;
+  margin-right: 2px;
+}
+
+.testimonial-card p {
+  color: #475569;
+  line-height: 1.85;
+  font-size: 0.95rem;
+  font-style: italic;
+  margin-bottom: 24px;
+  flex: 1;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-top: 1px solid #f1f5f9;
+  padding-top: 18px;
+}
+
+.testimonial-avatar {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2563eb, #60a5fa);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.5px;
+}
+
+.testimonial-author strong {
+  display: block;
+  font-weight: 700;
+  color: #0f172a;
+  font-size: 0.93rem;
+  margin-bottom: 3px;
+}
+
+.testimonial-author span {
+  color: #64748b;
+  font-size: 0.82rem;
+}
+
+/* Prev / Next Buttons */
+.testimoni-prev,
+.testimoni-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+  border: none;
+
+  background: #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+
+  color: #0f172a;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 10;
+
+  transition: 0.25s ease;
+
+  opacity: 1;
+}
+
+.testimoni-prev { left: -28px; }
+.testimoni-next { right: -28px; }
+
+.testimoni-prev i,
+.testimoni-next i {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.testimoni-prev:hover,
+.testimoni-next:hover {
+  background: #2563eb;
+  color: white;
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.3);
+  transform: translateY(-50%) scale(1.08);
+}
+
+/* Dot Indicators */
+.testimoni-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 32px;
+}
+
+.testimoni-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #cbd5e1;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.testimoni-dot.active {
+  background: #2563eb;
+  width: 24px;
+  border-radius: 999px;
+}
+
+/* Mobile: hide mobile-only-slides on desktop */
+@media (min-width: 769px) {
+  .mobile-only-slide {
+    display: none !important;
+  }
+}
+
+/* Mobile: 1 card per slide, hide extra cards in slide */
+@media (max-width: 768px) {
+  .testimoni-slide {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  /* On mobile, only show the first card in each slide */
+  .testimoni-slide .testimonial-card:not(:first-child) {
+    display: none;
+  }
+
+  .testimoni-prev { left: -8px; }
+  .testimoni-next { right: -8px; }
+
+  .testimoni-prev,
+  .testimoni-next {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 /* =========================
